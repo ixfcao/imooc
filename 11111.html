@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+	</head>
+	<body>
+		
+		<a id="a_list" href="javascript:;" onclick="getaval(this.text)"> ew909we9</a>
+		<a id="a_list" href="javascript:;" onclick="getaval();"> 222</a>
+		<a id="a_list" href="javascript:;" onclick="getaval();">33</a>
+		
+		<div class="aappp">
+			<a href="imooc/11111.html?cid=1">nih   </a>
+		</div><p>你好</p>
+	</body>
+	<script type="text/javascript">
+		
+		   
+					
+					
+					
+		// $(".aappp a").on("click", function(){
+		// // alert( file:///D:/zuo/Desktop/0.html );
+		// });
+		
+	</script>
+	
+	
+		<!-- <script src="js/getParameter.js"></script> -->
+	    <script>
+	        $(function () {
+	            var search = location.search;
+	            alert(search); //获取URL中?后的句子
+	            var string = search.split("=")[1]; //分割取出cid
+	            alert(string);
+	            var cid = getParameter("cid"); //通过getParameter获取
+	            alert(cid);
+	        });
+			function getParameter(name) {
+			    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
+			    var r = location.search.substr(1).match(reg);
+			    if (r!=null) return (r[2]); return null;
+			}
+			
+	    </script>
+		
+	
+</html>

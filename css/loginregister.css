@@ -1,0 +1,371 @@
+body {
+    min-width: 480px;
+}
+body, html {
+    color: rgb(28, 31, 33);
+    height: 100%;
+    font: 14px / 1.5 "PingFang SC", 微软雅黑, "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+.sig-head {
+    height: 120px;
+    text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.sig-img {
+    display: inline-block;
+    width: 384px;
+    height: 40px;
+    background: url(static/img/common/signlogo.png) no-repeat center center;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+:link, :visited, ins {
+    text-decoration: none;
+}
+#main {
+    min-height: auto;
+    padding: 20px 0;
+}
+.login-wrap .rl-modal {
+    position: relative;
+    margin: 0 auto;
+	padding: 0 auto;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.rl-modal {
+    position: fixed;
+    background: #fff;
+    z-index: 100000;
+    width: 384px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    left: 50%;
+    top: 50%;
+    margin: -192px 0 0 -192px;
+    box-shadow: 0 12px 24px 0 rgba(28,31,33,.1);
+    border-radius: 12px;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+}
+.rl-modal-header {
+    position: relative;
+    padding: 0 20px 25px;
+}
+.rl-modal-header h1 {
+    font-size: 16px;
+    line-height: 49px;
+    font-weight: 700;
+    height: 49px;
+    color: #787d82;
+}
+.rl-modal-header .active-title, .rl-modal-header span:hover {
+    color: #f20d0d;
+}
+.rl-modal-header h1 span {
+    float: left;
+    width: 80px;
+    text-align: center;
+    height: 49px;
+    line-height: 49px;
+    cursor: pointer;
+}
+.rl-modal-body {
+    padding: 0 32px;
+}
+.pr {
+    position: relative;
+}
+.rl-modal .ipt {
+    width: 100%;
+    height: 48px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 14px;
+    box-shadow: 2px 0 5px 0 #fff;
+    background: rgba(28,31,33,.06);
+    border-radius: 8px;
+    border: 0;
+}
+.rlf-tip-wrap {
+    clear: both;
+}
+.rlf-tip-wrap {
+    font-size: 12px;
+    height: 20px;
+}
+.rl-modal .proclaim-btn {
+    font-size: 23px;
+    color: #b5b9bc;
+    position: absolute;
+    top: 12px;
+    right: 14px;
+}
+.rl-modal .form-control {
+    position: relative;
+}
+.rlf-appendix {
+    line-height: 1em;
+}
+.rlf-appendix .rlf-autoin, .rlf-appendix .rlf-forget {
+    color: #9199a1;
+}
+
+.l {
+    float: left;
+}
+.rlf-tip-globle {
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+}
+.color-red {
+    color: #EF1300!important;
+}
+.btn-full {
+    width: 100%;
+    box-sizing: border-box;
+}
+.moco-btn-lg {
+    padding: 11px 32px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 24px;
+}
+.moco-btn-red {
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    -weibkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    color: #fff;
+    background-color: #f20d0d;
+    border-color: #f20d0d;
+    opacity: 1;
+}
+.moco-btn {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-image: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    white-space: nowrap;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    -weibkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    color: #545c63;
+    background-color: transparent;
+    border-color: #9199a1;
+    opacity: 1;
+    padding: 7px 16px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 18px;
+}
+.rl-model-footer {
+    padding: 20px 30px 4px;
+}
+.pop-login-sns {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.pop-login-sns .rlf-other {
+    margin-left: 30px;
+    margin-right: 24px;
+    padding-right: 24px;
+    display: inline-block;
+    font-size: 14px;
+    color: #f20d0d;
+    text-align: left;
+    line-height: 24px;
+    border-right: 1px solid #1a1C1F21;
+    cursor: pointer;
+}
+.pop-login-sns a {
+    font-size: 14px;
+    margin-right: 21px;
+    height: 20px;
+    line-height: 20px;
+    color: #c8cdd2;
+    transition: color .2s;
+}
+.privacy_tip {
+	width: auto;
+    font-size: 12px;
+    color: #717a84;
+    text-align: center;
+}
+.privacy_tip a:visited {
+    font-size: 12px;
+    color: #37f;
+}
+.erweima, .pcLogin {
+    background: url() no-repeat 0 0;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    border-radius: 0 0 12px 0;
+}
+.vright {
+    text-align: center;
+    color: #b5b9bc;
+    font-size: 12px;
+    line-height: 50px;
+}
+.moco-emoji {
+    width: 18px;
+    height: 18px;
+    display: inline !important;
+    margin: 0 !important;
+}
+fieldset, img {
+    border: 0;
+}
+.rlf-appendix .auto-cbx {
+    margin-right: 10px;
+    vertical-align: -1px;
+}
+.rlf-appendix .rlf-autoin, .rlf-appendix .rlf-forget {
+    color: #9199a1;
+}
+.pop-login-sns i {
+    font-size: 24px;
+    vertical-align: -3px;
+    transition: color .2s;
+    color: #b5b9bc;
+}
+.btn-full {
+    width: 100%;
+    box-sizing: border-box;
+}
+.moco-btn-lg {
+    padding: 11px 32px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 24px;
+}
+.moco-btn-red {
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    -weibkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    color: #fff;
+    background-color: #f20d0d;
+    border-color: #f20d0d;
+    opacity: 1;
+}
+.privacy_tip {
+    font-size: 12px;
+    color: #717a84;
+    text-align: center;
+}
+.rl-modal-header .active-title:after, .rl-modal-header span:hover:after {
+    content: " ";
+    width: 16px;
+    height: 4px;
+    line-height: 4px;
+    background: #f20d0d;
+    border-radius: 2px;
+    display: block;
+    margin: 0 auto;
+}
+.rlf-areacode {
+    position: absolute;
+    cursor: pointer;
+    left: 16px;
+    top: 12px;
+    font-size: 16px;
+    color: #1c1f21;
+    text-align: left;
+    line-height: 24px;
+}
+.rl-modal .ipt {
+    width: 100%;
+    height: 48px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 14px;
+    box-shadow: 2px 0 5px 0 #fff;
+    background: rgba(28,31,33,.06);
+    border-radius: 8px;
+    border: 0;
+}
+.rl-model-signup .ipt-phone {
+    padding-left: 77px!important;
+}
+a:link, a:visited {
+    color: #1c1f21;
+}
+a:link, a:visited {
+    color: #5e5e5e;
+}
+.verify-img-wrap {
+    position: absolute;
+    right: 2px;
+    top: 8px;
+    width: 84px;
+    height: 32px;
+}
+:link, :visited, ins {
+    text-decoration: none;
+}
+.rl-model-signup .rl-model-footer {
+    padding: 25px 9px 4px 50px;
+}
+.areacode-box {
+    display: none;
+    width: 320px;
+    height: 280px;
+    position: absolute;
+    top: 132px;
+    left: 32px;
+    background: #fff;
+    box-shadow: 0 8px 16px 0 rgba(28,31,33,.2);
+    border-radius: 8px;
+}
+.rlf-appendix .ipt-agreement {
+    color: #37f;
+}
+.rl-model-signup .rl-model-footer span {
+    color: #9199a1;
+}
+.pop-login-sns a {
+    font-size: 14px;
+    margin-right: 21px;
+    height: 20px;
+    line-height: 20px;
+    color: #c8cdd2;
+    transition: color .2s;
+}

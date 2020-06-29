@@ -1,0 +1,1689 @@
+.course-infos-top {
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#new_header .new-header .nav-item li>a.active {
+    /* color: #fff; */
+	color: #717A84;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+	color: #1c1f21;
+	font: 14px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+    color: #1c1f21;
+    font: 14px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+}
+.course-infos-top .info-wrap {
+    width: 1152px;
+    margin: 0 auto;
+    padding-top: 72px;
+    padding-bottom: 136px;
+    position: relative;
+}
+.course-infos-top .info-wrap .path {
+    position: absolute;
+    top: 16px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.path {
+    opacity: .6;
+    color: #fff;
+    font-size: 12px;
+}
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.course-infos-top .info-wrap .path a {
+    color: rgba(255,255,255,.6);
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+}
+.course-infos-top .info-wrap .path {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.course-infos-top .info-wrap .path a i {
+    font-size: 20px;
+    color: rgba(255,255,255,.6);
+    line-height: 24px;
+    position: relative;
+    top: 4px;
+}
+[class^="imv2-"], [class*=" imv2-"] {
+    font-family: 'imv2' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+        font-variant-ligatures: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.course-infos-top .info-wrap .path .split {
+    color: rgba(255,255,255,.6);
+    padding: 0 4px;
+    font-style: normal;
+}
+.course-infos-top .info-wrap .path a {
+    color: rgba(255,255,255,.6);
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+
+.course-infos-top .info-wrap .path .split {
+    color: rgba(255,255,255,.6);
+    padding: 0 4px;
+    font-style: normal;
+}
+
+.course-infos-top .info-wrap .path {
+    font-size: 12px;
+    line-height: 24px;
+}
+.course-infos-top .info-wrap .path span {
+    color: rgba(255,255,255,.6);
+}
+
+.course-infos-top .info-wrap .path {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.course-infos-top .info-wrap .path span {
+    color: rgba(255,255,255,.6);
+}
+
+.course-infos-top .info-wrap .extra {
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+.course-infos-top .info-wrap .extra .course-collect {
+    margin-right: 36px;
+    cursor: pointer;
+}
+.l {
+    float: left;
+}
+.course-infos-top .info-wrap .extra .course-collect i {
+    font-size: 20px;
+}
+
+.course-infos-top .info-wrap .extra .course-collect span {
+    font-size: 12px;
+    margin-left: 4px;
+}
+.course-infos-top .info-wrap .extra .course-collect i, .course-infos-top .info-wrap .extra .course-collect span {
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    float: left;
+    color: rgba(255,255,255,.4);
+    line-height: 32px;
+}
+
+.course-infos-top .info-wrap .extra .share-action.bg {
+    padding-left: 2px;
+    background-color: #a1a1a1\9\0;
+    background-image: linear-gradient(90deg,rgba(255,255,255,.6) 0,rgba(255,255,255,.1) 100%);
+}
+.course-infos-top .info-wrap .extra .share-action {
+    border-radius: 16px;
+    padding-right: 14px;
+    height: 32px;
+    cursor: pointer;
+    font-size: 0;
+}
+.course-infos-top .info-wrap .extra .share-action .share {
+    display: inline-block;
+    float: none;
+    padding: 0;
+    line-height: 32px;
+    margin: 0 0 0 12px;
+    width: auto;
+    height: auto;
+    vertical-align: top;
+    background-image: none;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    color: rgba(255,255,255,.8);
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+}
+[class*=" sz-"], [class^="sz-"] {
+    font-family: sz !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+:link, :visited, ins {
+    text-decoration: none;
+}
+.course-infos-top .info-wrap .extra .share-action .share {
+    display: inline-block;
+    float: none;
+    padding: 0;
+    line-height: 32px;
+    margin: 0 0 0 12px;
+    width: auto;
+    height: auto;
+    vertical-align: top;
+    background-image: none;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    color: rgba(255,255,255,.8);
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+}
+.course-infos-top .info-wrap .title-box {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    color: #1c1f21;
+    font: 14px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+}
+
+.course-infos-top .info-wrap .title-box h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    line-height: 48px;
+    text-shadow: 0 2px 4px rgba(28,31,33,.6);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.course-infos-top .info-wrap .title-box h2 {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    text-shadow: 0 2px 4px rgba(28,31,33,.6);
+    margin-top: 8px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+}
+.course-infos-top .fixed-wrap {
+    width: 1152px;
+    min-height: 128px;
+    position: absolute;
+    left: 50%;
+    margin-left: -576px;
+    bottom: -64px;
+    background-image: url(/static/module/img/fixed_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    box-shadow: 0 8px 16px 0 rgba(28,31,33,.1);
+}
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+        margin-left: 0px;
+    padding: 0;
+}
+.course-infos-top .fixed-wrap .con {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 32px 40px;
+    box-sizing: border-box;
+}
+
+.l {
+    float: left;
+}
+.course-infos-top .fixed-wrap .con .time-price .discount .sale-timer {
+    padding: 6px 12px;
+    background-color: #f90\9\0;
+    background-image: linear-gradient(90deg,rgba(255,0,105,.99) 0,#ff7a00 99%);
+    border-radius: 16px;
+}
+.course-infos-top .fixed-wrap .con .time-price .discount .sale-timer .name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 20px;
+}
+
+
+.course-infos-top .fixed-wrap .con .time-price .discount .sale-timer i {
+    color: #fff;
+    font-style: normal;
+    padding: 0 1px;
+}
+
+.course-infos-top .fixed-wrap .con .time-price .discount .sale-timer div {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 8px;
+}
+.course-infos-top .fixed-wrap .con .timer {
+    font-size: 14px;
+    color: #545c63;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 22px;
+    font-weight: 700;
+}
+.course-infos-top .fixed-wrap .con .time-price .discount .sale-price {
+    font-size: 32px;
+    color: #f01414;
+    line-height: 32px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.course-infos-top .fixed-wrap .con .time-price .discount .ori-price {
+    font-size: 14px;
+    color: #93999f;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 8px;
+    margin-right: 2px;
+    text-decoration: line-through;
+}
+.course-infos-top .fixed-wrap .con .time-price .can-huabei {
+    margin-top: 3px;
+    margin-left: 12px;
+    line-height: 12px;
+    padding: 6px 10px;
+    background-color: #6c61d3\9\0;
+    background-image: linear-gradient(90deg,#6c61d3 0,#53a0fd 100%);
+    border-radius: 12px;
+}
+
+.l {
+    float: left;
+}
+
+.course-infos-top .fixed-wrap .con .time-price .can-huabei a {
+    font-size: 12px;
+    color: #fff;
+}
+
+a {
+    background-color: transparent;
+}
+.course-infos-top .fixed-wrap .con .time-price .can-huabei {
+    line-height: 12px;
+}
+.course-infos-top .fixed-wrap .con .time-price .can-baitiao {
+    margin-top: 3px;
+    margin-left: 17px;
+    line-height: 12px;
+    padding: 6px 10px;
+    background-image: linear-gradient(90deg,#ff323f 0,#f76469 100%);
+    border-radius: 12px;
+}
+
+.l {
+    float: left;
+}
+.course-infos-top .fixed-wrap .con .time-price .can-baitiao a {
+    font-size: 12px;
+    color: #fff;
+}
+.course-infos-top .fixed-wrap .con .info-bar span {
+    font-size: 12px;
+    color: #545c63;
+    line-height: 24px;
+    font-weight: 700;
+    padding-right: 8px;
+}
+.course-infos-top .fixed-wrap .con .info-bar span.nodistance {
+    padding-right: 0;
+    font-weight: 400;
+}
+
+.course-infos-top .fixed-wrap .con .info-bar span {
+    font-size: 12px;
+    color: #545c63;
+    line-height: 24px;
+    font-weight: 700;
+    padding-right: 8px;
+}
+.course-infos-top .fixed-wrap .con .info-bar i {
+    font-size: 16px;
+    color: #545c63;
+    line-height: 16px;
+    padding: 0 4px;
+    vertical-align: middle;
+}
+
+[class^="imv2-"], [class*=" imv2-"] {
+    font-family: 'imv2' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+        font-variant-ligatures: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.course-infos-top .fixed-wrap .con .info-bar i {
+    font-size: 16px;
+    color: #545c63;
+    line-height: 16px;
+}
+
+[class^="imv2-"], [class*=" imv2-"] {
+    font-family: 'imv2' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+        font-variant-ligatures: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    font-variant-ligatures: discretionary-ligatures;
+}
+.course-infos-top .fixed-wrap .con .info-bar span {
+    font-size: 12px;
+    color: #545c63;
+    line-height: 24px;
+    font-weight: 700;
+    padding-right: 8px;
+}
+
+.course-infos-top .fixed-wrap .con .info-bar span.nodistance {
+    padding-right: 0;
+    font-weight: 400;
+}
+
+.course-infos-top .fixed-wrap .con .info-bar span {
+    font-size: 12px;
+    color: #545c63;
+    line-height: 24px;
+    font-weight: 700;
+    padding-right: 8px;
+}
+
+.course-infos-top .fixed-wrap .con .info-bar i {
+    font-size: 16px;
+    color: #545c63;
+    line-height: 16px;
+    padding: 0 4px;
+    vertical-align: middle;
+}
+.course-infos-top .fixed-wrap .con .info-bar span {
+    font-size: 12px;
+    color: #545c63;
+    line-height: 24px;
+    font-weight: 700;
+    padding-right: 8px;
+}
+.course-infos-top .fixed-wrap .con .info-bar span.nodistance {
+    padding-right: 0;
+    font-weight: 400;
+}
+
+.course-infos-top .fixed-wrap .con .info-bar span {
+    font-size: 12px;
+    color: #545c63;
+    line-height: 24px;
+    font-weight: 700;
+    padding-right: 8px;
+}
+.course-infos-top .fixed-wrap .con .info-bar i {
+    font-size: 16px;
+    color: #545c63;
+    line-height: 16px;
+    padding: 0 4px;
+    vertical-align: middle;
+}
+
+[class^="imv2-"], [class*=" imv2-"] {
+    font-family: 'imv2' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+        font-variant-ligatures: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.course-infos-top .fixed-wrap .con .info-bar span.nodistance {
+    padding-right: 0;
+    font-weight: 400;
+}
+.course-infos-top .fixed-wrap .con .info-bar span {
+    font-size: 12px;
+    color: #545c63;
+    line-height: 24px;
+    font-weight: 700;
+    padding-right: 8px;
+}
+
+.course-infos-top .fixed-wrap .con .btns {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 0;
+}
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.course-infos-top .fixed-wrap .con .btns .gobuy {
+    margin-right: 16px;
+}
+.course-infos-top .fixed-wrap .con .btns .red-btn {
+    background: #f01414;
+    border-radius: 24px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 12px 48px;
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+}
+.course-infos-top .fixed-wrap .con .btns .addcart {
+    background: rgba(240,20,20,.1);
+    border-radius: 24px;
+    font-size: 16px;
+    color: #f20d0d;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 12px 48px;
+    position: relative;
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+}
+.course-infos-top .fixed-wrap .con .btns a {
+    display: inline-block;
+}
+.course-infos-top .fixed-wrap .con .btns a {
+    display: inline-block;
+}
+
+:link, :visited, ins {
+    text-decoration: none;
+}
+a, button, input {
+    outline: 0;
+}
+.course-infos-t.graybg {
+    background: #f3f5f7 !important;
+}
+.course-infos-t {
+    padding-top: 64px;
+    overflow: hidden;
+}
+.graybg {
+    background: #f3f5f6;
+}
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+        padding-top: 0px;
+}
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    color: #1c1f21;
+    font: 14px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+}
+
+.course-infos-t .comp-tab-t {
+    padding: 28px 0 32px 0;
+    text-align: center;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.course-infos-t .comp-tab-t ul {
+    display: inline-block;
+}
+ol, ul {
+    list-style: none;
+}
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.course-infos-t .comp-tab-t {
+    text-align: center;
+}
+.course-infos-t .comp-tab-item-first {
+    margin-left: 0;
+}
+
+.course-infos-t .comp-tab-item {
+    height: 40px;
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    float: left;
+    margin-left: 60px;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+        margin-left: 0px;
+    padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.course-infos-t .comp-tab-t {
+    text-align: center;
+}
+.course-infos-t .comp-tab-item a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #545c63;
+    vertical-align: text-bottom;
+}
+
+a {
+    background-color: transparent;
+}
+a, button, input {
+    outline: 0;
+}
+:link, :visited, ins {
+    text-decoration: none;
+}
+.course-infos-t .comp-tab-item {
+    height: 40px;
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    float: left;
+    margin-left: 60px;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+        margin-left: 0px;
+    padding: 0;
+}
+ol, ul {
+    list-style: none;
+}
+.course-infos-t .comp-tab-t {
+    text-align: center;
+}
+.course-infos-t .comp-tab-item a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #545c63;
+    vertical-align: text-bottom;
+}
+:link, :visited, ins {
+    text-decoration: none;
+}
+a, button, input {
+    outline: 0;
+}
+a {
+    background-color: transparent;
+}
+ol, ul {
+    list-style: none;
+}
+
+.course-infos-t .comp-tab-item .sub-tag, .course-infos-t .comp-tab-item .try-mark {
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 30px;
+    height: 18px;
+}
+fieldset, img {
+    border: 0;
+}
+.course-infos-t .comp-tab-item a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #545c63;
+}
+.course-infos-t .comp-tab-t {
+    text-align: center;
+}
+.course-infos-t .comp-tab-item {
+    height: 40px;
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    float: left;
+    margin-left: 60px;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+        margin-left: 0px;
+    padding: 0;
+}
+.course-infos-t .comp-tab-item a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #545c63;
+    vertical-align: text-bottom;
+}
+:link, :visited, ins {
+    text-decoration: none;
+}
+a, button, input {
+    outline: 0;
+}
+a {
+    background-color: transparent;
+}
+.course-infos-t .comp-tab-item a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #545c63;
+}
+
+ol, ul {
+    list-style: none;
+}
+.course-infos-t .comp-tab-t {
+    text-align: center;
+}
+.course-infos-t .comp-tab-item {
+    height: 40px;
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    float: left;
+    margin-left: 60px;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+        margin-left: 0px;
+    padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+.course-infos-t .comp-tab-item a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #545c63;
+    vertical-align: text-bottom;
+}
+:link, :visited, ins {
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+a, button, input {
+    outline: 0;
+}
+.course-infos-t .comp-tab-item span {
+    position: absolute;
+    top: 0;
+    left: 67px;
+    font-size: 12px;
+    color: #93999f;
+}
+.course-infos-t .comp-tab-item {
+    font-size: 16px;
+    line-height: 27px;
+}
+.course-infos-t .comp-tab-t {
+    text-align: center;
+}
+.course-infos-t .comp-tab-item {
+    height: 40px;
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    float: left;
+    margin-left: 60px;
+}
+.course-infos-t .comp-tab-item {
+    font-size: 16px;
+    line-height: 27px;
+}
+.course-infos-t .comp-tab-item.active a {
+    color: #f20d0d;
+}
+.course-infos-t .comp-tab-item a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #545c63;
+    vertical-align: text-bottom;
+}
+
+.course-infos-t .comp-tab-item span {
+    position: absolute;
+    top: 0;
+    left: 67px;
+    font-size: 12px;
+    color: #93999f;
+}
+.course-infos-t .comp-tab-item.active .borderLine {
+    display: block;
+}
+.course-infos-t .comp-tab-item .borderLine {
+    display: none;
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    top: 40px;
+    left: 50%;
+    margin-left: -8px;
+    background: #f20d0d;
+}
+
+.infolayout {
+    overflow: hidden;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    color: #1c1f21;
+    font: 14px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.class-tab-pannel {
+    min-height: 280px;
+    width: 824px;
+    float: left;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.cmt-list {
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(28,31,33,.1);
+    border-radius: 8px;
+    padding: 28px 32px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.cmt-post {
+    position: relative;
+    padding: 24px 25px;
+    border-bottom: 1px solid #d9dde1;
+}
+.cmt-post .inner {
+    position: relative;
+    padding-left: 72px;
+}
+.cmt-post .hd {
+    margin-bottom: 4px;
+    line-height: 18px;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+        margin-bottom: 0px;
+    padding: 0;
+}
+.cmt-post a {
+    cursor: pointer;
+}
+a:link, a:visited {
+    color: #1c1f21;
+}
+:link, :visited, ins {
+    text-decoration: none;
+}
+a, button, input {
+    outline: 0;
+}
+
+a {
+    background-color: transparent;
+}
+.cmt-post .pic {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+fieldset, img {
+    border: 0;
+}
+.cmt-post a {
+    cursor: pointer;
+}
+a:link, a:visited {
+    color: #1c1f21;
+}
+.cmt-post .name {
+    font-size: 14px;
+    color: #1c1f21;
+    line-height: 24px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+.cmt-post a {
+    cursor: pointer;
+}
+.stars {
+    position: relative;
+    top: 0;
+    color: #b5b9bc;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 24px;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+        margin-left: 0px;
+    padding: 0;
+}
+.cmt-post .hd {
+    line-height: 18px;
+}
+fieldset, img {
+    border: 0;
+}
+
+.stars {
+    color: #b5b9bc;
+    font-size: 16px;
+}
+.stars span {
+    font-size: 12px;
+    color: #545c63;
+    line-height: 24px;
+}
+.cmt-post .cmt-txt {
+    font-size: 16px;
+    color: #1c1f21;
+    text-align: left;
+    line-height: 28px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+ol, ul {
+    list-style: none;
+}
+.cmt-post .treply {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+    word-wrap: break-word;
+    word-break: break-all;
+    background: #f4f5f7;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.cmt-post .treply {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.cmt-post .treply span {
+    margin: 5px 0;
+    display: block;
+    color: #1c1f21;
+    text-align: left;
+}
+.cmt-post .treply {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.cmt-post .treply {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+ol, ul {
+    list-style: none;
+}
+.clearfix::after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.evaluation-right {
+    width: 328px;
+    float: right;
+    box-sizing: border-box;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.evaluation-right-item {
+    margin-top: 0 !important;
+}
+.evaluation-right-item {
+    margin-top: 32px;
+    width: 328px;
+    box-sizing: border-box;
+    padding: 28px 32px;
+    background: rgba(28,31,33,.06);
+    border-radius: 8px;
+    position: relative;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+        margin-top: 0px;
+    padding: 0;
+}
+.evaluation-right-item .scoreitem {
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px solid #d3d6d9;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+        padding-bottom: 0px;
+}
+.evaluation-right-item .scoreitem h3 {
+    font-size: 20px;
+    color: #1c1f21;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+        margin-bottom: 0px;
+    padding: 0;
+}
+.evaluation-right-item .scoreitem p {
+    font-size: 48px;
+    color: #fa0;
+    text-align: center;
+    line-height: 48px;
+    font-weight: 700;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.evaluation-right-item .scoreitem .num {
+    font-size: 12px;
+    display: block;
+    color: #93999f;
+    text-align: center;
+    line-height: 16px;
+    position: absolute;
+    top: 28px;
+    right: 32px;
+}
+.evaluation-right-item .scoreitem .num i {
+    font-style: normal;
+    margin-right: 2px;
+}
+
+.evaluation-right-item .scoreitem .num {
+    font-size: 12px;
+    color: #93999f;
+    text-align: center;
+    line-height: 16px;
+}
+
+.evaluation-right-item .itemlist {
+    padding-top: 12px;
+    overflow: hidden;
+}
+.evaluation-right-item .slist {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    font-size: 12px;
+    color: #545c63;
+    line-height: 20px;
+}
+.evaluation-right-item .slist span {
+    display: block;
+    font-size: 14px;
+    color: #1c1f21;
+    text-align: center;
+    line-height: 14px;
+    margin-bottom: 7px;
+}
+.evaluation-right-item .slist em {
+    font-size: 16px;
+    color: #fa0;
+    text-align: center;
+    line-height: 16px;
+    font-weight: 700;
+}
+.evaluation-right-item .slist {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    font-size: 12px;
+    color: #545c63;
+    line-height: 20px;
+}
+.evaluation-right-item .slist span {
+    display: block;
+    font-size: 14px;
+    color: #1c1f21;
+    text-align: center;
+    line-height: 14px;
+    margin-bottom: 7px;
+}
+
+.recommendcourse {
+    float: right;
+    width: 328px;
+    padding-top: 36px;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.recommendcourse .box-class-tit, .recommendcourse .box-tit {
+    font-size: 16px;
+    color: #07111b;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-left: 24px;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.tea-inst {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d9dde1;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+        margin-bottom: 0px;
+    padding: 0;
+        padding-bottom: 0px;
+}
+.tea-inst .medias {
+    margin-bottom: 12px;
+    overflow: hidden;
+    padding: 0 24px;
+}
+
+.tea-inst .medias a {
+    color: #1c1f21;
+}
+:link, :visited, ins {
+    text-decoration: none;
+}
+a, button, input {
+    outline: 0;
+}
+a {
+    background-color: transparent;
+}
+.tea-inst .medias a {
+    color: #1c1f21;
+}
+.tea-inst .medias .media {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 2px 12px 0 0;
+}
+fieldset, img {
+    border: 0;
+}
+.tea-inst .medias a {
+    color: #1c1f21;
+}
+
+.tea-inst .medias .name {
+    font-weight: 700;
+    color: #4d555d;
+    font-size: 18px;
+    line-height: 24px;
+}
+.tea-inst .medias [class*="sz-"] {
+    font-size: 16px;
+    color: #f20d0d;
+}
+[class*=" sz-"], [class^="sz-"] {
+    font-family: sz !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.sz-imooc::before {
+    content: "\e608";
+}
+.tea-inst .medias [class*="sz-"] {
+    font-size: 16px;
+    color: #f20d0d;
+}
+.tea-inst .medias .job {
+    display: block;
+    font-size: 12px;
+    color: #4d555d;
+}
+.tea-inst .desc {
+    padding: 0 24px;
+    line-height: 24px;
+    font-size: 12px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.infolayout {
+    overflow: hidden;
+}
+
+.chapter-div {
+    border-top: 1px solid rgba(28,31,33,.1);
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.class-tab-pannel {
+    min-height: 280px;
+    width: 824px;
+    float: left;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.chapter-box {
+    text-align: left;
+}
+
+.chapter-box {
+    text-align: left;
+}
+.outline-list .chapter-ul {
+    width: 100%;
+}
+ol, ul {
+    list-style: none;
+}
+.outline-list .chapter {
+    position: relative;
+    overflow: hidden;
+    padding: 32px 0 20px 0;
+    z-index: 2;
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(28,31,33,.1);
+}
+
+ol, ul {
+    list-style: none;
+}
+.outline-list .chapter .chapter-icon {
+    float: left;
+    font-size: 36px;
+    color: #93999f;
+    margin: 5px 24px 0 12px;
+}
+[class*=" sz-"], [class^="sz-"] {
+    font-family: sz !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.sz-chapter::before {
+    content: "\e61e";
+}
+[class*=" sz-"], [class^="sz-"] {
+    font-family: sz !important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+.outline-list .chapter .chapter-bd {
+    position: relative;
+    float: none;
+    overflow: hidden;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.outline-list .chapter .chapter-bd .name {
+    font-weight: 700;
+    font-size: 16px;
+    color: #07111b;
+    margin-bottom: 8px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+        margin-bottom: 0px;
+    padding: 0;
+}
+.outline-list .chapter .chapter-bd .desc {
+    margin-bottom: 16px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #07111b;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+        margin-bottom: 0px;
+    padding: 0;
+}
+ol, ul {
+    list-style: none;
+}
+.outline-list .chapter .chapter-bd ul li {
+    padding: 12px 0;
+    border-top: 1px solid rgba(28,31,33,.1);
+    line-height: 24px;
+}
+.outline-list .chapter .chapter-bd ul li i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+    color: #9199a1;
+}
+[class^="imv2-"], [class*=" imv2-"] {
+    font-family: 'imv2' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+        font-variant-ligatures: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.imv2-video::before {
+    content: "\e61c";
+}
+.outline-list .chapter .chapter-bd ul li i {
+    color: #9199a1;
+}
+.outline-list .chapter .chapter-bd ul li .title_info {
+    display: inline-block;
+    max-width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.outline-list .chapter .chapter-bd ul li {
+    line-height: 24px;
+}
+.outline-list .chapter .chapter-bd ul li .watch-free {
+    float: right;
+    padding: 0 16px;
+    font-size: 12px;
+    background: rgba(242,13,13,.1);
+    border-radius: 12px;
+    color: #f20d0d;
+    font-weight: 700;
+}
+.outline-list .chapter .chapter-bd ul li {
+    line-height: 24px;
+}
+a, button, input {
+    outline: 0;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+        line-height: inherit;
+    margin: 0;
+}
+input, textarea {
+    outline: 0;
+}
+button, input, select, textarea {
+    border: none;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.outline-list .chapter .chapter-bd ul li {
+    padding: 12px 0;
+    border-top: 1px solid rgba(28,31,33,.1);
+    line-height: 24px;
+}
+.outline-list .chapter .chapter-bd ul li .title_info {
+    display: inline-block;
+    max-width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.outline-list .chapter {
+    position: relative;
+    overflow: hidden;
+    padding: 32px 0 20px 0;
+    z-index: 2;
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(28,31,33,.1);
+}
+.outline-list .chapter .chapter-bd {
+    position: relative;
+    float: none;
+    overflow: hidden;
+}
+.chapter-box {
+    text-align: left;
+}
+.right-video-wrap {
+    float: right;
+    position: relative;
+    border-bottom: 1px solid #d9dde1;
+    width: 328px;
+    padding: 36px 24px;
+    box-sizing: border-box;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.right-video-wrap .title {
+    font-size: 16px;
+    color: #07111b;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+        padding-bottom: 0px;
+}
+
+.right-video-box {
+    float: right;
+    position: relative;
+    width: 100%;
+    height: 176px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.right-video-box .mask {
+    background: #000;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.right-video-box .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 48px;
+    box-sizing: border-box;
+}
+.right-video-box .content .video-btn {
+    font-size: 48px;
+    color: #b2b8bd;
+    cursor: pointer;
+}
+[class*=" sz-"], [class^="sz-"] {
+    font-family: sz !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.right-video-box .content {
+    text-align: center;
+}
+.sz-play::before {
+    content: "\e912";
+}
+.right-video-box .content .video-btn {
+    font-size: 48px;
+    color: #b2b8bd;
+    cursor: pointer;
+}
+
+.right-video-box .content p {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.recommendcourse {
+    float: right;
+    width: 328px;
+    padding-top: 36px;
+}
+.course-infos-top .fixed-wrap {
+    width: 1152px;
+    min-height: 128px;
+    position: absolute;
+    left: 50%;
+    margin-left: -576px;
+    bottom: -64px;
+    background-image: url('/static/img/fixed_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    box-shadow: 0 8px 16px 0 rgba(28,31,33,.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

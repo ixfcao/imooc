@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/loginregister.css">
+		<link rel="stylesheet" href="css/iconfont.css">
+		<script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js" ></script>
+		<title></title>
+		
+	</head>
+	<body>
+		<div id="head" class="sig-head">
+			<a href="/" target="_self" ><img class="sig-img" src="static/img/common/signlogo.png" alt=""></a>
+		</div>
+		<div id="main">
+
+			<div class="login-wrap">
+
+				<div id="signup" class="rl-modal  rl-model-signup">
+					<div class="rl-modal-header">
+						<h1> <span data-fromto="signup:signin" class="xa-showSignin"><a href="login.html">登录</a></span> <span class="active-title">注册</span> </h1>
+					</div>
+					<div class="rl-modal-body js-modal-body js-registerWrap">
+						<form id="signup-form pr">
+							<div class="rlf-group  pr">
+								<!-- <div class="rlf-areacode js-code-btn">+<span>86</span><i class="imv2-arrow1_d"></i></div> -->
+								
+								<input type="text"
+								 maxlength="37" value="" name="uname" data-callback="checkusername" data-validate="require-mobile-phone"
+								 autocomplete="off" class="ipt ipt-phone" placeholder="请输入注册用户名">
+								<p class="rlf-tip-wrap errorHint color-red" data-error-hint="请输入正确的手机号"></p>
+							</div>
+							<div class="rlf-group clearfix form-control "> 
+							
+							<input type="text" name="pwd" class="ipt ipt-verify js-emailverify l"
+								 data-validate="require-string" data-callback="checkverity" autocomplete="off" maxlength="4" data-minlength="4"
+								 placeholder="请输入密码">
+								 
+								 <a href="" hidefocus="true" class="verify-img-wrap js-verify-refresh">
+									 <!-- <img						 class="verify-img" src="/passport/user/verifycode?t=1591713970734"></a> -->
+									 <a href=""
+								 hidefocus="true" class="icon-refresh js-verify-refresh"></a>
+								<p class="rlf-tip-wrap errorHint color-red" data-error-hint="验证码错误"></p>
+							</div>
+							<div class="rlf-group rlf-appendix form-control  clearfix" style="margin-bottom:0"> <label for="signup-protocol"
+								 class="rlf-autoin l" hidefocus="true"><input type="checkbox" class="auto-cbx" id="signup-protocol">同意<a class="ipt-agreement"
+									 target="_blank" href="https://www.imooc.com/help/detail/89">《慕课网注册协议》</a>&amp;<a href="https://moco.imooc.com/privacy.html"
+									 class="ipt-agreement" target="_blank">《隐私政策》</a></label>
+								<p class="rlf-tip-wrap errorHint color-red rlf-tip-globle" id="signup-globle-error" data-error-hint="请同意慕课网注册协议"></p>
+							</div>
+							<div class="rlf-group clearfix"> 
+								<a  id="signup-btn" hidefocus="true" class="moco-btn moco-btn-red moco-btn-lg btn-full btn r">
+									注册 
+								</a>
+							</div>
+						</form>
+					</div>
+					<div class="rl-model-footer">
+						<div class="pop-login-sns clearfix"> <span class="l ">其他方式登录：</span> <a href="" hidefocus="true"
+							 data-login-sns="" class="pop-sns-weibo r"><i class="iconfont iconweibo"></i></a> <a href=""
+							 hidefocus="true" data-login-sns="" class="pop-sns-weixin r"><i class="iconfont iconweixin"></i></a>
+							<a href="" hidefocus="true" data-login-sns="" class="pop-sns-qq r"><i
+								 class="iconfont iconQQ"></i></a> </div>
+					</div>
+					<div class="areacode-box js-code-box">
+						<ul class="code-tab">
+							<li class="curr js-code-tab">常用</li>
+							<li class="js-code-tab">A</li>
+							<li class="js-code-tab">B</li>
+							<li class="js-code-tab">C</li>
+							<li class="js-code-tab">D</li>
+							<li class="js-code-tab">E</li>
+							<li class="js-code-tab">F</li>
+							<li class="js-code-tab">G</li>
+							<li class="js-code-tab">H</li>
+							<li class="js-code-tab">J</li>
+							<li class="js-code-tab">K</li>
+							<li class="js-code-tab">L</li>
+							<li class="js-code-tab">M</li>
+							<li class="js-code-tab">N</li>
+							<li class="js-code-tab">P</li>
+							<li class="js-code-tab">R</li>
+							<li class="js-code-tab">S</li>
+							<li class="js-code-tab">T</li>
+							<li class="js-code-tab">W</li>
+							<li class="js-code-tab">X</li>
+							<li class="js-code-tab">Y</li>
+							<li class="js-code-tab">Z</li>
+						</ul>
+						<div class="code-title"><span>常用</span></div>
+						<div class="code-list nano">
+							<ul class="nano-content js-code-list"> </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="vright"><img draggable="false" class="moco-emoji" alt="©" src="https://www.imooc.com/static/moco/v1.0/images/face/36x36/a9.png">
+			2020 imooc.com All Rights Reserved 京ICP备 13046642号
+		</div>
+		
+		
+<!-- 注册 -->		
+		<script type="text/jscript">
+			$("#signup-btn").click(function(){
+				// e.preventDefault();
+				$.ajax({
+					url:"http://localhost:8080/imooc/register",
+					type:"post",
+					// 获取uname 和 pwd 要和后端接口名称一样
+					data:$('form').serialize(),
+					// dataType:"json",
+					success:function(zhuce){
+						// console.log(infoo),		
+						alert(zhuce);
+						if(zhuce == "注册成功"){
+							window.location.href="login.html";
+							/* */
+							// localStorage.setItem("name",info);							  
+						}	 
+							
+					}
+				});
+						
+			})
+	</script>
+	</body>
+	
+</html>

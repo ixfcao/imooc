@@ -1,0 +1,548 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+*a{
+	text-decoration: none;
+}
+.header{
+	background: #07111B;;
+}
+.header-container{
+	width: 1152px;
+	height: 40px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header-item li a{
+	/* padding-left: 0; */
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #717A84;
+	font-weight: bold;
+	position: relative;
+	padding: 0 18px;
+}
+.header-item li{
+	float: left;
+}
+
+.header-item li:first-child a{
+	padding-left: 0;
+}
+
+.header-item li a:hover {
+    color: #fff;
+}
+.header-item li > a.active {
+    color: #fff;
+}
+.header-right{
+	font-size: 0.875rem;
+	float: right;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+}
+
+.app-download a{
+	color: #717A84;
+	text-decoration: none;
+}
+.app-download{
+	float: left;
+	position: relative;
+	margin-right: 36px;
+	font-size: 12px;
+	line-height: 40px;
+}
+.search-box i{
+	font-size: 22px;
+	vertical-align: middle;
+}
+.search-box{
+	margin-right: 2.25rem;
+}
+.search-box a:hover {
+	color: #fff;
+}
+.search-box a{
+	color: #717A84;
+	text-decoration: none;
+}
+.shop-cart a{
+	text-decoration: none;
+}
+.shop-cart a:hover{
+	color: #fff;
+}
+a{
+	text-decoration : none;
+}
+.shop-cart{
+	float: left;
+	position: relative;
+	margin-right: 36px;
+	font-size: 12px;
+}
+.shop-cart a {
+    color: #717A84;
+}
+.shop-cart span{
+	font-size: 22px;
+	vertical-align: middle;
+	margin-right: 0;
+}
+.iconfont-cart2 iconfont icon-gouwuche {
+	font-size: 22px;
+	vertical-align: middle;
+	margin-right: 0;
+}
+/* .iconfont{
+	font-size: 22px;
+} */
+
+.login-area{
+	float: left;
+	position: relative;
+}
+.header-unlogin{
+	font-size: 14px;
+	list-style: none;
+}
+.header-signin a {
+	font-size: 12px;
+    color: #D3D6D9;
+	text-decoration: none;
+}
+.header-signin a:hover{
+	color: red;
+}
+:link, :visited, ins {
+    text-decoration: none;
+}
+
+.body-main{
+	min-height: 750px;
+}
+.banner-container {
+    height: 220px;
+    width: 100%;
+    background-image: url(../img/jzw/banner.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+body{
+	font: 14px/2em "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+}
+.banner-container .wrap {
+    width: 1152px;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 48px;
+    box-sizing: border-box;
+    position: relative;
+}
+.banner-container .wrap .logo-class {
+    width: 270px;
+    height: 36px;
+    background-image: url(../img/jzw/logo-class-recommended.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 16px;
+}
+.banner-container .wrap h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 4.69px;
+    text-align: center;
+    line-height: 60px;
+    text-shadow: 0 8px 16px rgba(28,31,33,.3);
+    margin-bottom: 18px;
+	font-family: "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+	
+}
+.banner-container .wrap .desc {
+    display: inline-block;
+}
+.banner-container .wrap .desc .text {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+}
+.l {
+    float: left;
+}
+.banner-container .wrap .desc .line {
+    font-size: 16px;
+    color: #fff;
+    margin: 0 30px;
+    line-height: 44px;
+}
+.class-container {
+    width: 100%;
+}
+.class-container .wrap {
+    width: 1092px;
+    height: 100%;
+    margin: 0 auto;
+}
+.class-container .wrap .type-row {
+    height: 84px;
+    width: 100%;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.class-container .wrap .type-row .type-item.active, .class-container .wrap .type-row .type-item:hover {
+    font-weight: 700;
+    color: #545c63;
+    background: #edeef0;
+}
+.class-container .wrap .type-row .type-item {
+    display: inline-block;
+    margin-right: 10px;
+    height: 30px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 30px;
+    color: #777e86;
+    font-weight: 700;
+    border-radius: 15px;
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    cursor: pointer;
+}
+.class-container .wrap .type-row .all-course-num {
+    font-size: 12px;
+    line-height: 30px;
+    color: #777e86;
+    float: right;
+}
+.class-container .wrap .course-row {
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.class-container .wrap .course-row .card {
+    width: 348px;
+    height: 326px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.1);
+    border-radius: 12px;
+    margin-right: 24px;
+    position: relative;
+    margin-bottom: 34px;
+}
+.class-container .wrap .course-row .card:nth-child(3n) {
+    margin-right: 0;
+}
+.l {
+    float: left;
+}
+a:link, a:visited {
+    color: #5e5e5e;
+}
+:link, :visited, ins {
+    text-decoration: none;
+}
+元素 {
+    background-image: url(//img.mukewang.com/climg/5eb8aa0109080be806960344.jpg);
+}
+.class-container .wrap .course-row .card .img-con {
+    width: 100%;
+    height: 172px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.class-container .wrap .course-row .card .img-con .type {
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 60px;
+    height: 32px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/static/module/marketpage/img/index/type.png);
+}
+.class-container .wrap .course-row .card .text-con {
+    padding: 0 20px;
+        padding-top: 0px;
+    padding-top: 16px;
+    position: absolute;
+    bottom: 94px;
+    background: #fff;
+    max-height: 88px;
+}
+.text-con a{
+	text-decoration: none;
+}
+.bottom-buy a{
+	text-decoration: none;
+}
+.class-container .wrap .course-row .card .text-con .title {
+    font-size: 14px;
+    color: #1c1e20;
+    color: #9199a1;
+    line-height: 22px;
+    max-height: 44px;
+    display: block;
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.footer_link ul li a{
+	text-decoration: none;
+}
+.footer_intro l p{
+	text-decoration: none;
+}
+.class-container .wrap .course-row .card .info {
+    height: 16px;
+    line-height: 16px;
+    position: absolute;
+    bottom: 66px;
+    left: 0;
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.class-container .wrap .course-row .card .info i {
+    font-size: 12px;
+    color: #9199a1;
+    padding-right: 2px;
+}[class^="imv2-"], [class*=" imv2-"] {
+    font-family: 'imv2' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+        font-variant-ligatures: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+	}
+.class-container .wrap .course-row .card .info span {
+    font-size: 12px;
+    color: #9199a1;
+    padding-right: 14px;
+}
+.class-container .wrap .course-row .card .info {
+    line-height: 16px;
+}
+.class-container .wrap .course-row .card .info i {
+    font-size: 12px;
+    color: #9199a1;
+    padding-right: 2px;
+}
+[class^="imv2-"], [class*=" imv2-"] {
+    font-family: 'imv2' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-variant-ligatures: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+    webkit-font-feature-settings: "liga";
+    moz-font-feature-settings: "liga=1";
+    moz-font-feature-settings: "liga";
+    ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
+    webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+    webkit-font-smoothing: antialiased;
+    moz-osx-font-smoothing: grayscale;
+}
+.class-container .wrap .course-row .card .info i {
+    font-size: 12px;
+    color: #9199a1;
+    padding-right: 2px;
+}
+.class-container .wrap .course-row .card .info {
+    line-height: 16px;
+}
+.class-container .wrap .course-row .card .bottom-buy {
+    position: absolute;
+    bottom: 22px;
+    left: 0;
+    padding: 0 20px;
+    height: 26px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.class-container .wrap .course-row .card .bottom-buy .now-price {
+    font-size: 14px;
+    color: #f01515;
+    font-weight: 700;
+    margin-right: 8px;
+    line-height: 30px;
+}
+.class-container .wrap .course-row .card .bottom-buy .go-btn {
+    border: 1px solid #dbdfe3;
+    border-radius: 13px;
+    width: 80px;
+    text-align: center;
+    line-height: 26px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #1c1e20;
+    cursor: pointer;
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+}
+.r {
+    float: right;
+}
+
+
+
+/* 底部位置 */
+#footer {
+    background: #1c1f21;
+    border-top: 1px solid #e2e4e6;
+    font-size: 12px;
+    color: #787d82;
+    padding: 27px 0;
+    min-width: 620px;
+    margin-top: 60px;
+    position: relative;
+    z-index: 3;
+}
+#footer .waper {
+    width: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#footer .followus {
+    margin-right: 34px;
+    padding-left: 30px;
+    z-index: 3;
+}
+.followus .followus-weixin {
+    background-position: 0 -279px;
+}
+.followus a {
+    float: left;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://static.mukewang.com/static/img/common/footer-sprite.png?t=0705);
+    background-repeat: no-repeat;
+    margin: 3px 6px 0;
+    opacity: .5;
+    -webkit-transition: opacity .2s;
+   - moz-transition: opacity .2s;
+    transition: opacity .2s;
+}
+:link, :visited, ins {
+    text-decoration: none;
+}
+.followus .followus-weibo {
+    background-position: 0 -321px;
+}
+.followus .followus-qzone {
+    background-position: 0 -363px;
+}
+#footer .footer_intro {
+    padding-left: 40px;
+}
+#footer .footer_link {
+    margin-bottom: 4px;
+    line-height: 1.8;
+}
+.footer_link ul {
+    overflow: hidden;
+    margin-top: -1px;
+}
+ol, ul {
+    list-style: none;
+}
+#footer .footer_link {
+    line-height: 1.8;
+}
+#footer .footer_link li {
+    margin-right: 30px;
+    text-align: center;
+    float: left;
+}
+ .footer_link a:visited {
+    color: #c8cdd2;
+}
+.footer_link a:active, .footer_link a:link, .footer_link a:visited {
+    color: #c8cdd2;
+}
+#footer p {
+    line-height: 1.7;
+}
+.moco-emoji {
+    width: 18px;
+    height: 18px;
+    display: inline !important;
+    margin: 0 !important;
+}
+fieldset, img {
+    border: 0;
+}
+.clearfix::after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#footer .beian {
+    background: url(../static/img/beianicon.png) no-repeat 0 0;
+        background-size: auto;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 4px;
+    margin-top: -4px;
+}

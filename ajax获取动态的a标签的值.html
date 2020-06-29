@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+.special_color{
+font-size:16px;
+color:#006633;
+font-family:"微软雅黑";
+}
+</style>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+</head>
+<body>
+<div class="search_sort">
+	<li><a href="#" class="special_color">全部</a></li>
+	<li><a href="#">前沿技术</a></li>
+	<a href="#">原创</a>
+	<a href="javascript:void(0);" onclick="js_clear()"  >翻唱</a>
+	<a href="javascript:void(0);" onclick="js_clear()"  >kkk</a>
+</div>
+<div class="classify">
+	
+</div>
+
+
+<script type="text/jscript">
+	$(function(){
+		var tit = '';
+		
+		getClassify("");
+				
+		$('.search_sort  a').click(function(){
+			alert($(this).text());//输出所点的a的内容
+			tit = $(this).text();
+			alert(tit);
+			getClassify(tit);
+			
+		})
+		
+		
+		
+		$(".classify").on("click","li>a",function(){
+		    alert("被点击了");
+			alert($(this).text())
+			tit = $(this).text();
+			getClassify(tit);
+		})
+		// $(".classifyyy a").on("click", function(){
+		// alert( $(this).text() );
+		// });
+		
+		// $('.classifyyy li a').click(function(){
+		// 	alert($(this).text());//输出所点的a的内容
+		// 	tit = $(this).text();
+		// 	alert(tit);
+		// 	getClassify(tit);
+			
+		// })
+	});
+		function getClassify(tit){
+			$.ajax({
+			
+				url:"http://localhost:8080/selectClassifyAllOrByDirectionid",
+				data:"describee="+tit,
+				success:function(Classify){
+					var li1 = '<li class="course-nav-item on"><a href="#">全部</a></li>';
+					var li2 ='';
+					for (var i = 0 ; i < Classify.length ; i++) {
+						li2 += '<li class="course-nav-item "><a href="#" data-id="6303" data-ct="tyscript">'+Classify[i].classifyname+'</a></li>';
+					}
+					
+					var li3 = li1 + li2 ;
+					$(".classify").append(li3);
+				}
+			});
+		}
+		
+		
+	
+</script>
+</body>
+</html>

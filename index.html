@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/iconfont01.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<title></title>
+	</head>
+	<body id="index">
+		<div id="header" class="">
+			<div class="page-container clearfix addZ-index" id="nav" style="background-color: #fff !important;">
+				<div id="logo" class="logo">
+					<a href="/" target="_self" title="首页">
+						<img title="慕课网" src="./static/img/index.png" style="margin-left: 4px;">
+					</a>
+				</div>
+
+				<button type="button" class="navbar-toggle visible-xs-block js-show-menu">
+					<i class="icon-menu"></i>
+				</button>
+				<ul class="nav-item l">
+					<li class="set-btn visible-xs-block js-header-avator" href=""><a href="/u/index" target="_self"><img width="40"
+							 height="40" src=""></a></li>
+
+					<li>
+						<a href="freecourse.1.html" target="_self">免费课程</a>
+					</li>
+					<li>
+						<a href="" target="_self">实战课程</a>
+					</li>
+					<li><a href="" target="_self">金职位<i class="icn-new"></i></a></li>
+					<li><a href="" target="_self">wiki</a></li>
+					<li><a href="" target="_self">专栏</a></li>
+					<li><a href="" target="_self">手记</a></li>
+					<!-- <li><a href="//job.imooc.com" class="program-nav" target="_self">猿聘<i class="icn-new"></i></a></li> -->
+					<li class="visible-xs-block"><a href="" target="_self">我的设置</a></li>
+					<li class="visible-xs-block"><a href="" target="_self">退出</a></li>
+
+
+				</ul>
+				<div id="login-area">					
+					
+					<!-- 登录成功的 -->
+					<ul class="clearfix logined">
+						<li class="app-download" id="js-app-load">
+							<a href="" target="_blank" style="width:60px;">下载APP</a>
+							<div class="app-load-box clearfix js-load-box" style="display: none;">
+
+								<div class="mobile-load-box">
+									<h4>慕课网APP - 随时随地学编程</h4>
+									<img src="" class="l">
+									<div class="r">
+										<a class="app-load-btn" href="h" target="_blank"><i class="icon-apple"></i>App Store下载</a>
+										<a class="app-load-btn" href="down" target="_blank"><i class="icon-android"></i>Android下载</a>
+										<p>扫描下载慕课网APP</p>
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li class="shop-cart" id="shop-cart">
+							<a href="" class="shop-cart-icon" target="_blank">
+								<span class="icon-shopping-cart js-endcart"><i class="iconfont iconhtmal5icon29"></i></span><span>购物车</span>
+							</a>
+							<div class="my-cart" id="js-my-cart">
+								<div class="cart-title-box clearfix">
+									<h2 class="l">我的购物车</h2>
+									<h5 class="r">已加入<span class="js-incart-num">0</span>门课程</h5>
+								</div>
+								<div class="cart-wrap">
+									<div class="cart-wrap-box" id="js-card-ul">
+										<ul>
+											<li class="clearfix js-item" data-type="4" data-typeid="73" data-goodsid="1747"> <a href=""><img
+													 class="l" src="" alt=""></a>
+												<div class="content-box l"> <a href="" target="_blank">
+														<h3>Java架构师体系课：跟随千万级项目从0到100全过程高效成长</h3>
+													</a>
+													<p class="clearfix"> <span class="price l">￥6600</span> <span class="del r js-close">删除</span> </p>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="cart-wrap">
+									<div class="clear-cart"> <span class="cartIcon icon-shopping-cart"> <i class="iconfont iconhtmal5icon29"></i> </span>
+										<h3>购物车里空空如也</h3>
+										<div class="text">快去这里选购你中意的课程</div>
+										<p><a class="go-link" href="" target="_blank">实战课程</a></p>
+										<p><a class="go-link" href="" target="_blank">就业班</a></p>
+									</div>
+								</div>
+					<div class="more-box clearfix">
+									<div class="l show-box"> <span class="text"><a href="" target="_blank">我的订单中心</a></span>
+									</div> <a href="" target="_blank" class="r moco-btn moco-btn-red go-cart">去购物车</a>
+								</div>
+							</div>
+						</li>
+
+						<li class="remind_warp">
+							
+							<a target="_blank" href="">
+								<i class="iconfont iconlingdang2f"></i>
+							</a>
+						</li>
+						<li class="user-mycourse-box">
+							<a class="user-card-item js-header-courseurl" href="" target="_self">
+								<span>我的课程</span>
+							</a>
+						</li>
+
+						<li class="set_btn user-card-box" id="header-user-card">
+							<a id="header-avator" class="user-card-item js-header-avator" action-type="my_menu" href="" target="_self">
+								<img width="40" height="40" src="./static/img/touxiang/5b8cdce3000166dd02000235-100-100.jpg">
+								<i class="myspace_remind" style="display: none;"></i>
+								<span style="display: none;">动态提醒</span>
+							</a>
+							<div class="g-user-card">
+								<div class="card-inner">
+									<div class="card-top clearfix"> <a class="l" href=""><img src="./static/img/touxiang/5b8cdce3000166dd02000235-100-100.jpg"
+											 alt="慕斯41578502"></a>
+										<div class="card-top-right-box l"> <a href=""><span class="name text-ellipsis">慕斯41578502</span></a>
+											<div class="meta"> <a href="">经验<b id="js-user-mp">0</b></a> <a href="">积分<b id="js-user-credit">0</b></a>
+											</div>
+										</div>
+									</div>
+									<div class="user-center-box">
+										<ul class="clearfix">
+											<li class="l"><a href="" target="_blank"><span class="user-center-icon icon-tick"></span>我的课程</a></li>
+											<li class="l"> <a href="" target="_blank"><span class="user-center-icon icon-receipt"></span>订单中心</a>
+												<i id=""></i> </li>
+											<li class="l"><a href="" target="_blank"><span class="user-center-icon icon-score_shop"></span>积分商城</a></li>
+											<li class="l"><a href="" target="_blank"><span class="user-center-icon icon-set"></span>个人设置</a></li>
+										</ul>
+									</div>
+									<div class="card-sets clearfix"><a href="javascript:void(0);" onclick="js_clear()"  class="l">安全退出</a></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					
+	<!--***************** ************ -->
+					
+					<!-- 没有登录的 -->
+					<ul class="header-unlogin clearfix">
+						<li class="app-download" id="js-app-load">
+							<a href="" target="_blank" style="width:60px;">下载APP</a>
+							<div class="app-load-box clearfix js-load-box" style="display: none;">
+
+								<div class="mobile-load-box">
+									<h4>慕课网APP - 随时随地学编程</h4>
+									<img src="" class="l">
+									<div class="r">
+										<a class="app-load-btn" href="" target="_blank"><i class="icon-apple"></i>App Store下载</a>
+										<a class="app-load-btn" href="down" target="_blank"><i class="icon-android"></i>Android下载</a>
+										<p>扫描下载慕课网APP</p>
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li class="shop-cart" id="shop-cart">
+							<a href="" class="shop-cart-icon" target="_blank">
+								<span class="icon-shopping-cart js-endcart"><i class="iconfont iconhtmal5icon29"></i></span><span>购物车</span><span class="shopping_icon js-cart-num"
+								 data-ordernum="0" data-cartnum="0" style="display: none">0</span>
+							</a>
+							<div class="my-cart" id="js-my-cart">
+								<div class="cart-title-box clearfix">
+									<h2 class="l">我的购物车</h2>
+									<h5 class="r">已加入<span class="js-incart-num">0</span>门课程</h5>
+								</div>
+								<div class="cart-wrap">
+									<div class="clear-cart"> <span class="cartIcon icon-shopping-cart"></span>
+										<h3>购物车里空空如也</h3>
+										<div class="text">快去这里选购你中意的课程</div>
+										<p><a class="go-link" href="//coding.imooc.com" target="_blank">实战课程</a></p>
+										<p><a class="go-link" href="//class.imooc.com/" target="_blank">就业班</a></p>
+									</div>
+								</div>
+								<div class="more-box clearfix">
+									<div class="l show-box"> <span class="text"><a href="//order.imooc.com/myorder" target="_blank">我的订单中心</a></span>
+									</div> <a href="//order.imooc.com/pay/cart" target="_blank" class="r moco-btn moco-btn-red go-cart">去购物车</a>
+								</div>
+							</div>
+						</li>
+						<li class="header-signin">
+							<a href="login.html" id="js-signin-btn">登录</a> / <a href="register.html" id="js-signup-btn">注册</a>
+						</li>	
+						
+					</ul>
+						
+				</div>
+				<div class="search-warp clearfix" style="min-width: 32px; height: 72px;">
+
+					<div class="search-area" data-search="top-banner">
+						<input class="search-input"  data-suggest-trigger="suggest-trigger" placeholder="请输入关键字..." type="text"
+						 autocomplete="off">
+						<input type="hidden" class="btn_search" data-search-btn="search-btn">
+						<div class="hotTags">
+							<a href="" target="_blank" class="">Vue</a>
+							<a href="" target="_blank" class="last">Python</a>
+						</div>
+						<div class="search-area-result nav-search-box js-search-wrap">
+							<div class="hot">
+								<h2>热搜</h2>
+								<div class="hot-box"><a href="" class="hot-item js-history-search">Vue</a><a href="" class="hot-item js-history-search">Python</a><a
+									 href="" class="hot-item js-history-search">Java</a><a href="" class="hot-item js-history-search">flutter</a><a
+									 href="" class="hot-item js-history-search">springboot</a><a href="" class="hot-item js-history-search">docker</a><a
+									 href="" class="hot-item js-history-search">React</a><a href="" class="hot-item js-history-search">小程序</a></div>
+							</div>
+							<div class="history">
+								<ul data-suggest-result="suggest-result">
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="showhide-search" data-show="no"><i class="iconfont iconsousuokuang"></i></div>
+				</div>
+			</div>
+		</div>
+		<div id="main">
+			<div class="bgfff banner-box">
+				<div class="g-banner pr">
+					<div class="menuwrap">
+					</div>
+
+					<div class="submenu hide1" data-id="a" style="display: none;">
+						<div class="innerBox clearfix">
+							<div class="subinnerBox">
+								<div class="cates-box">
+									<div class="fe-base-box clearfix">
+										<div class="banner-line">
+											<span class="bold mr10 small-title">前沿技术</span>
+										</div>
+										<div class="tag-box l">
+											<a target="_blank" href="">微服务</a>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="recomment-box">
+							<div class="l banner-course-card">
+								<a href="" target="_blank" title="SpringCloud  Finchley三版本(M2+RELEASE+SR2)微服务实战" class="clearfix">
+									<img src="" class="l">
+									<div class="l course-card">
+										<h3 class="course-card-name">SpringCloud Finchley三版本(M2+RELEASE+SR2)微服务实战</h3>
+
+										<div class="course-card-price l">￥366.00</div>
+										<div class="course-card-dot l"><i class="imv2-dot_samll"></i></div>
+
+										<div class="course-card-info l">
+
+											高级
+
+										</div>
+										<div class="course-card-dot l"><i class="imv2-dot_samll"></i></div>
+										<div class="course-card-info l">
+											<i class="icon-set_sns"></i>5092
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="l banner-course-card">
+								<a href="//coding.imooc.com/class/201.html?mc_marking=45128caf23b4b2a0b822082be50a646d&amp;mc_channel=shujuku2"
+								 target="_blank" title="ZooKeeper分布式专题与Dubbo微服务入门" class="clearfix">
+									<img src="//img4.mukewang.com/szimg/5ab9be440001b21f05400300-360-202.jpg" class="l">
+									<div class="l course-card">
+										<h3 class="course-card-name">ZooKeeper分布式专题与Dubbo微服务入门</h3>
+
+										<div class="course-card-price l">￥199.00</div>
+										<div class="course-card-dot l"><i class="imv2-dot_samll"></i></div>
+
+										<div class="course-card-info l">
+
+											中级
+
+										</div>
+										<div class="course-card-dot l"><i class="imv2-dot_samll"></i></div>
+										<div class="course-card-info l">
+											<i class="icon-set_sns"></i>1577
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="l banner-course-card">
+								<a href=""
+								 target="_blank" title="" class="clearfix">
+									<div class="course-banner-path">
+										<div class="img-up" style="background-image: url(）;"></div>
+										<div class="img-mid" style="background-image: url(）;"></div>
+										<div class="img-down" style="background-image: url(）;"></div>
+									</div>
+									<div class="l course-card">
+										<h3 class="course-card-name">从0入门人工智能学习</h3>
+
+										<div class="course-card-info l">
+											<span class="pathicon">路线</span>
+										</div>
+										<div class="course-card-info l">6步骤</div>
+										<div class="course-card-dot l"><i class="imv2-dot_samll"></i></div>
+										<div class="course-card-info l">6门课</div>
+										<div class="course-card-dot l"><i class="imv2-star2"></i></div>
+										<div class="course-card-info l">14429人收藏</div>
+									</div>
+								</a>
+							</div>
+							<div class="l banner-course-card">
+								<a href="//www.imooc.com/learn/990?mc_marking=1f4fcc63073278dd413ae9b1018396f2&amp;mc_channel=shujuku4" target="_blank"
+								 title="推荐算法理论与实践" class="clearfix">
+									<img src="//img1.mukewang.com/5aeecb1d0001e5ea06000338-360-202.jpg" class="l">
+									<div class="l course-card">
+										<h3 class="course-card-name">推荐算法理论与实践</h3>
+
+										<div class="course-card-info l">
+
+											中级
+
+										</div>
+										<div class="course-card-dot l"><i class="imv2-dot_samll"></i></div>
+										<div class="course-card-info l">
+											<i class="icon-set_sns"></i>17834
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- 轮播图上面的文字 -->
+					<div class="menuContent">
+						<!-- <div class="item" data-id="a">
+							<a href="">
+								<span class="group">前沿 / 区块链 / 人工智能</span>
+								<i class="iconfont iconjiantou1"></i>
+							</a>
+						</div> -->
+
+					</div>
+					
+					<div class="g-banner-content">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						        
+						        <ol class="carousel-indicators">
+						          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						        </ol>						      
+						        <!-- 轮播图-->
+						        <div class="carousel-inner" role="listbox">
+						          <!-- <div class="item active">
+						            <img src="./static/img/banner/3701591757256_.pic_hd.jpg" alt="...">
+						          </div>
+						          <div class="item">
+						            <img src="./static/img/banner/3711591757258_.pic_hd.jpg" alt="...">
+						          </div>
+						          <div class="item">
+						            <img src="./static/img/banner/3721591757260_.pic_hd.jpg" alt="...">
+						          </div> -->
+						        </div>						      
+						       
+						        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">									
+						          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						          <span class="sr-only">Previous</span>
+						        </a >
+									
+						        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">									
+						          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						          <span class="sr-only">Next</span>								  
+						        </a >
+						</div>
+						
+					</div>
+				</div>
+				
+<!-- 零基础就业****************************************************************************** -->
+				<div class="container-types container-recommend clearfix" id="muokuai1">
+					<!-- 追加 -->
+					<!-- <h3 class="types-title clearfix"> 
+						<span>零基础就业</span>
+						<span class="intro">从入门到具备1年开发经验</span> 
+					</h3>
+					<div class="path-list clearfix">
+						<a href="//class.imooc.com/sale/java2020?mc_marking=643aaf5f53de6d83d1559ef032b63f53&amp;mc_channel=ljcJava"
+						 target="_blank" data-track="ljtj-1-3"> 
+							<i class="i-java" style="background-position: center -50px;"></i>
+							<p class="tit">Java工程师2020</p>
+							<p class="desc">综合就业排名第一</p>
+						</a> 
+						<a href="//class.imooc.com/sale/newfe?mc_marking=d30d30a061cf4af9788b9a70e810aaa6&amp;mc_channel=syqdsjb"
+						 target="_blank" data-track="ljtj-1-1"> <i class="i-web"></i>
+							<p class="tit">前端工程师升级版</p>
+							<p class="desc">从未接触编程也可以学好</p>
+						</a> 
+						<a href="//class.imooc.com/sale/python?mc_marking=b098f828d4a7229958cf4ad9c4a7cac5&amp;mc_channel=L5" target="_blank"
+						 data-track="ljtj-1-5"> <i class="i-python"></i>
+							<p class="tit">Python工程师</p>
+							<p class="desc">应用领域最为广泛</p>
+						</a> 
+						<a href="//class.imooc.com/sale/newandroid?mc_marking=7e464a4870e13dc90f4b8d534a20efe0&amp;mc_channel=L3"
+						 target="_blank" data-track="ljtj-1-4"> <i class="i-android"></i>
+							<p class="tit">Android工程师</p>
+							<p class="desc">移动市场份额第一</p>
+						</a> 
+						<a href="//class.imooc.com/sale/php?mc_marking=c03f3d2ee3d0598c6fa775ff2b4c27d0&amp;mc_channel=L4" target="_blank"
+						 data-track="ljtj-1-2"> <i class="i-php"></i>
+							<p class="tit">PHP工程师</p>
+							<p class="desc">Web开发首选语言</p>
+						</a> 
+					</div> -->
+				</div>
+				
+				<div class="container-types container-recommend clearfix" id="muokuai2">
+					<!-- <h3 class="types-title clearfix"> 
+						<span>职场提升</span>
+						<span class="intro">1年以上开发经验系统成长</span> 
+					</h3>
+					<div class="recommend-box">
+						<a href="" target="_blank">
+							<div class="recommend l" style="background-image: url(static/img/index/index_mobilearchitect.png);"></div>
+						</a>
+						<a href="" target="_blank">
+							<div class="recommend l" style="background-image:url(./static/img/index/index_javaarchitect.png);"> </div>
+						</a>
+						<a href="" target="_blank">
+							<div class="recommend l" style="background-image:url(./static/img/index/index_javafullstack.png);"> </div>
+						</a>
+						<a href="" target="_blank">
+							<div class="recommend l" style="background-image:url(./static/img/index/index_webfullstack.png);"> </div>
+						</a>
+					</div> -->
+				</div>
+			</div>
+<!-- 新上好课****************************************************************************** -->
+			<div class="bg000">
+				<div class="container-types clearfix" id="muokuai3">
+					<!-- <h3 class="types-title clearfix"> <span>新上好课</span> </h3>
+					<div class="clearfix types-content">
+						<div class="index-card-container course-card-container container">
+							<a target="_blank" class="course-card" href="" data-track="sztj-1-1">
+								<div class="course-stat new">
+									新课
+								</div>
+								<div class="course-card-top hashadow">
+									<img class="course-banner" src="static/img/index/xinshanghaoke/5ee0782708609a8506000338-360-202.jpg">
+
+
+									<div class="course-label">
+										<label>JavaScript</label>
+										<label>算法与数据结构</label>
+									</div>
+								</div>
+								<div class="course-card-content">
+									<h3 class="course-card-name">JavaScript版数据结构与算法 轻松解决前端算法面试</h3>
+									<div class="clearfix course-card-bottom">
+										<div class="course-card-info">
+											<span>中级</span><span><i class="imv2-set-sns"></i>52</span>
+											<span class="r js-hover-evaluation">2人评价</span>
+										</div>
+
+										<div class="course-card-price">￥299.00
+										</div>
+									</div>
+								</div>
+							</a>
+							
+						</div>						
+
+					</div> -->
+				</div>
+			</div>
+<!-- 学习路线 ******************************************************************************-->
+			<div class="bgfff">
+				<div class="container-types container-path clearfix" id="muokuai4">
+					<!-- <h3 class="types-title clearfix"> <span>学习路线</span>
+						<ul class="js-path-tab">
+							<li data-id="hot" class="curr">热门</li>
+							<li data-id="1">前端</li>
+							<li data-id="2">后端</li>
+							<li data-id="3">移动端</li>
+							<li data-id="4">计算机基础</li>
+							<li data-id="6">大数据</li>
+							<li data-id="8">测试</li>
+							<li data-id="9">人工智能</li>
+						</ul> <a href="" target="_blank" class="more">查看更多 <i class="imv2-right2"></i></a>
+					</h3>
+					<div class="clearfix types-content js-path-content">
+						<div class="course-path-container"> 
+							<a target="_blank" href="">
+								<div class="course-banner">	
+								
+									
+									<div class="img-up" style="background-image: url(static/img/index/xuexiluxian/5d8b2a0608bd096301400140-140-140.jpg);"></div>
+									<div class="img-mid" style="background-image: url(./static/img/index/xuexiluxian/5da05bd40878ad7301400140-140-140.jpg);"></div>
+									<div class="img-down" style="background-image: url(./static/img/index/xuexiluxian/5da05bd40878ad7301400140-140-140.jpg);"></div>
+								</div>
+								<h4>计算机基础学习路线</h4>
+								<p>本路线精选程序员必修的计算机基础核心知识，有序打基础职场走更远。</p>
+								<div class="course-path-info"> <span>4步骤 · 4门课</span><span><i class="imv2-star2"></i>10160人收藏</span> </div>
+							</a> 
+						</div>
+
+					</div> -->
+					<!-- <div class="clearfix types-content js-path-content loading hide"></div>
+					<div class="clearfix types-content js-path-content loading hide"></div>
+					<div class="clearfix types-content js-path-content loading hide"></div>
+					<div class="clearfix types-content js-path-content loading hide"></div>
+					<div class="clearfix types-content js-path-content loading hide"></div>
+					<div class="clearfix types-content js-path-content loading hide"></div>
+					<div class="clearfix types-content js-path-content loading hide"></div>
+					<div class="clearfix types-content js-path-content loading hide"></div> -->
+				</div>
+			</div>
+<!-- 热门课程****************************************************************************** -->
+			<div class="bg000">
+				<div class="container-types container-rank clearfix" id="muokuai5">
+					<!-- <h3 class="types-title clearfix"> <span>热门课程</span>
+
+						<ul class="js-rank-tab">
+							<li class="curr">实战课程</li>
+							<li class="mianfei">免费课程</li>
+						</ul> <a href="//www.imooc.com/course/list?sort=tiny&amp;mc_marking=01951252d164cb9757dc034d89cc3544&amp;mc_channel=sywk"
+						 class="banner_wk r hide" target="_blank"></a>
+					</h3>
+					<div class="clearfix types-content js-rank-content">
+						<div class="index-card-container course-card-container container">
+							<a target="_blank" class="course-card" href="//coding.imooc.com/class/136.html?mc_marking=4cd147ccf2ff2ca7d226ce6dc286e465&amp;mc_channel=syszxl"
+							 data-track="xshk-1-1">
+
+								<div class="course-stat upgrade">
+									升级
+								</div>
+								<div class="course-card-top hashadow">
+									<img class="course-banner" src="./static/img/index/remenkech/59b8a486000107fb05400300-360-202.jpg">
+									<div class="course-label">
+										<label>Python</label>
+									</div>
+								</div>
+								<div class="course-card-content">
+									<h3 class="course-card-name">全面系统Python3.8入门+进阶 (程序员必备第二语言)</h3>
+									<div class="clearfix course-card-bottom">
+										<div class="course-card-info">
+											<span>初级</span><span><i class="imv2-set-sns"></i>11484</span>
+											<span class="r js-hover-evaluation">5210人评价</span>
+										</div>
+										<div class="course-card-price">￥366.00</div>
+									</div>
+								</div>
+							</a>
+							
+						</div>
+
+
+
+					</div> -->
+				</div>
+			</div>
+<!-- 慕课专栏 *******************************************************************************-->			
+			<div class="bgfff">
+				<div class="container-types container-read clearfix" id="muokuai6">
+					<!-- <h3 class="types-title clearfix"> 
+						<span>慕课专栏</span> 
+						<a href="/read" class="more" target="_blank">查看更多 <i class="imv2-right2"></i></a>
+					</h3>
+					<div class="clearfix types-content">
+						<div class="course-read-container">
+							<div class="course-banner"> <a href=""
+								 target="_blank"> <img src="static/img/index/mukezhuanlan/5ed8c19b000108e602940333.png" alt="">
+									<div class="try-read-img">试读</div>
+								</a> </div>
+							<h4><a href="" target="_blank">Python
+									源码深度剖析</a></h4>
+							<div class="course-read-info"> <span>共45节 · 194人已购买</span> </div>
+							<div class="course-read-teacher"> <a href="" target="_blank"><span>fasionchan</span> / 资深 Python 研发工程师</a>
+							</div>
+							<div class="course-read-price"> <a href=""
+								 target="_blank"><span class="sale">¥ 68.00</span></a> </div>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</div>
+		<div id="footer" >
+		</div>
+		
+		<!-- 退出当前用户 -->
+		<script type="text/javascript">
+			function js_clear(){
+				// 移除用户数据
+				localStorage.removeItem("name");
+				// alert(localStorage.getItem("name"));
+				// 刷新页面
+				window.location.reload();
+				// window.location.reload();
+			}
+		</script>
+		
+		<!-- 判断是否登录 显示相应的界面  -->
+		<script type="text/javascript">
+			var uname = localStorage.getItem("name");
+			// localStorage.removeItem("name");
+			// alert(uname);		
+				
+				if(uname!=null ){					
+					$(".logined").css("display","block");
+					$("ul[class='header-unlogin clearfix']").css("display","none");
+				}else{	
+					$(".logined").css("display","none");
+					$("ul[class='header-unlogin clearfix']").css("display","block");
+				}
+		</script>
+		
+		
+	</body>
+	<script type="text/javascript">
+		$('.user-card-box').mouseover(function() {
+			$('.g-user-card').css("visibility", "visible");
+		})
+		$('.user-card-box').mouseout(function() {
+			$('.g-user-card').css("visibility", "hidden");
+		})
+		$('.shop-cart').mouseover(function() {
+			$('.my-cart').css("display", "block");
+		})
+		$('.shop-cart').mouseout(function() {
+			$('.my-cart').css("display", "none");
+		})
+		$("div[class='menuContent']").mouseover(function() {
+			$("div[class='submenu hide1']").css("display", "block");
+		})
+		$("div[class='menuContent']").mouseout(function() {
+			$("div[class='submenu hide1']").css("display", "none");
+		})
+		$('.shizhan-skill-wrapper').mouseover(function() {
+			$(this).css("overflow", "visible");
+		})
+		$('.shizhan-skill-wrapper').mouseout(function() {
+			$(this).css("overflow", "hidden");
+		})
+		$("#footer").load("footer.html");
+		
+	</script>
+	
+	
+	<script type="text/javascript">
+		
+		
+		
+/* 轮播图上分类加载 ***************/
+		$.ajax({
+			url:"http://localhost:8080/allDirections",
+			success:function(dirs){
+				// 前端开发者可以在js代码的任何部分调用console.log 在浏览器console中查看值 
+				console.log(dirs);
+				var div ='';
+				for(var i=0;i<dirs.length;i++){
+					var dname=dirs[i].directionname;
+					div += '<div class="item" data-id="a"><a href=""><span class="group">'+dname
+					+'</span><i class="iconfont iconjiantou1"></i></a></div>'
+				}
+				/* 追加到指定位置 */
+				$("div[class='menuContent']").append(div);
+			},
+			// error:function(){
+			//  alert(111111);
+			// }
+		})
+		
+	
+		
+/*轮播图图片加载 ************ */
+		$.ajax({
+			url:"http://localhost:8080/selectAllCarousel",
+			success:function(Carousel){
+				var imgurl = '';
+				for(var i = 0 ; i < Carousel.length ; i++){
+					if(i==0){
+						imgurl += '<div class="item active"><img src="./static/img/banner/'+Carousel[i].carouselurl+'" alt="..."></div>';
+					}else{
+						imgurl += '<div class="item"><img src="./static/img/banner/'+Carousel[i].carouselurl+'" alt="..."></div>';
+	
+					}
+				}
+				$("div[class='carousel-inner']").append(imgurl);
+			}
+		})
+	
+	
+	
+/** *第一个模块 首页零基础加载***************** */
+		$.ajax({
+			url:"http://localhost:8080/allhomepage",
+			success:function(lingjc){
+				// console.log(lingjc);
+				var hh1 = '<h3 class="types-title clearfix"><span>'+lingjc[0].titlea+'</span><span class="intro">'+lingjc[0].titleb+'</span></h3>';
+				var div1 = '<div class="path-list clearfix">';
+				var lingjc1 = lingjc[0].courses;
+				var aa1 = '';
+				// 循环遍历a标签
+				for(var i = 0 ; i < lingjc1.length ; i++){
+					aa1 += '<a href="chargedetails.html?id='+lingjc1[i].id+'" target="_blank" data-track="ljtj-1-3">'+ 
+						'<i class="i-java"  style="background-position: '+lingjc1[i].position+';" ></i><p class="tit">'+lingjc1[i].coursename+'</p><p class="desc">'+lingjc1[i].keyword+'</p></a>';
+				}
+				console.log(aa1);				
+				var div2 = '</div>';
+				var div3 = hh1+div1+aa1+div2 ;
+				// console.log(div3);
+				$("#muokuai1").append(div3);
+			}
+		})
+		
+		
+		
+/********************* 第二个模块 职场提升 */
+		$.ajax({
+			url:"http://localhost:8080/allhomepage",
+			success:function(lingjc){
+				// console.log(lingjc);
+				var hh1 = '<h3 class="types-title clearfix"><span>'+lingjc[1].titlea+'</span><span class="intro">'+lingjc[1].titleb+'</span></h3>';
+				var div1 = '<div class="recommend-box">';
+				var lingjc1 = lingjc[1].courses;
+				var aa1 = '';
+				// 循环遍历a标签
+				for(var i = 0 ; i < lingjc1.length ; i++){					
+					aa1 += '<a href="chargedetails.html?id='+lingjc1[i].id+'" target="_blank"><div class="recommend l" style="background-image: url(static/img/index/'+lingjc1[i].position+');"></div></a>';
+				}
+				console.log(aa1);				
+				var div2 = '</div>';
+				var div3 = hh1+div1+aa1+div2 ;
+				// console.log(div3);
+				$("#muokuai2").append(div3);
+			}
+		})
+		
+		 
+		
+		
+/* **********************新上好课 */
+		$.ajax({
+			url:"http://localhost:8080/allhomepage",
+			success:function(lingjc){
+				// console.log(lingjc);
+				var hh1 = '<h3 class="types-title clearfix"><span>'+lingjc[2].titlea+'</span></h3>';				
+				var div1 = '<div class="clearfix types-content">';
+				var lingjc1 = lingjc[2].courses;
+				var aa1 = '';
+				// 循环遍历a标签
+				for(var i = 0 ; i < lingjc1.length ; i++){					
+					
+					aa1 +=  '<div class="index-card-container course-card-container container">'
+							+'<a target="_blank" class="course-card" href="chargedetails.html?id='+lingjc1[i].id+'" data-track="sztj-1-1">'
+							+	'<div class="course-stat new">'+lingjc1[i].labela+'</div>'
+							+	'<div class="course-card-top hashadow">'
+							+		'<img class="course-banner" src="static/img/index/xinshanghaoke/'+lingjc1[i].position+'">'				 
+							+		'<div class="course-label">'
+							+			'<label>'+lingjc1[i].labelb+'</label>'
+							+			'<label>'+lingjc1[i].labelc+'</label>'
+							+		'</div>'
+							+	'</div>'
+							+	'<div class="course-card-content">'
+							+		'<h3 class="course-card-name">'+lingjc1[i].keyword+'</h3>'
+							+		'<div class="clearfix course-card-bottom">'
+							+			'<div class="course-card-info">'
+							+				'<span>'+lingjc1[i].leve+'</span><span><i class="imv2-set-sns"></i>'+lingjc1[i].studycount+'</span>'
+							+				'<span class="r js-hover-evaluation">'+lingjc1[i].enumber+'人评价</span>'
+							+			'</div>'
+				 
+							+			'<div class="course-card-price">￥'+lingjc1[i].price+''
+							+			'</div>'
+							+		'</div>'
+							+	'</div>'
+							+'</a></div>';					
+					
+				}
+				console.log(aa1);				
+				var div2 = '</div>';
+				var div3 = hh1+div1+aa1+div2 ;
+				// console.log(div3);
+				$("#muokuai3").append(div3);
+			}
+		})
+	
+	
+	
+/***************** 学习路线 */
+	$.ajax({
+		url:"http://localhost:8080/allhomepage",
+		success:function(lingjc){
+			// console.log(lingjc);
+			var hh1 = '<h3 class="types-title clearfix"> <span>'+lingjc[3].titlea+'</span><ul class="js-path-tab">'
+								+'<li data-id="hot" class="curr">热门</li>	<li data-id="1">前端</li><li data-id="2">后端</li><li data-id="3">移动端</li>'
+								+'<li data-id="4">计算机基础</li><li data-id="6">大数据</li><li data-id="8">测试</li><li data-id="9">人工智能</li>'
+							+'</ul> <a href="" target="_blank" class="more">查看更多 <i class="imv2-right2"></i></a></h3>';
+							
+			var div1 = '<div class="clearfix types-content js-path-content">';
+			var lingjc1 = lingjc[3].courses;
+			var aa1 = '';
+			// 循环遍历a标签
+			for(var i = 0 ; i < lingjc1.length ; i++){					
+				aa1  +=	'<div class="course-path-container">' 
+							+'<a target="_blank" href="chargedetails.html?id='+lingjc1[i].id+'">'
+							+	'<div class="course-banner">'
+							+		'<div class="img-up" style="background-image: url(static/img/index/xuexiluxian/'+lingjc1[i].position+');"><img src="static/img/index/xuexiluxian/'+lingjc1[i].position+'" ></div>'
+							+		'<div class="img-mid" style="background-image: url(static/img/index/xuexiluxian/'+lingjc1[i].position+');"></div>'
+							+		'<div class="img-down" style="background-image: url(static/img/index/xuexiluxian/'+lingjc1[i].position+');"></div>'
+							+	'</div>'
+							+	'<h4>'+lingjc1[i].coursename+'</h4>'
+							+	'<p>'+lingjc1[i].describe+'</p>'
+							+	'<div class="course-path-info"> <span>4步骤 · 4门课</span><span><i class="imv2-star2"></i>'+12+i+'人收藏</span> </div>'
+							+'</a> '
+						+'</div>'
+						
+			}
+			console.log(aa1);				
+			var div2 = '</div>';
+			var div3 = hh1+div1+aa1+div2 ;
+			// console.log(div3);
+			$("#muokuai4").append(div3);
+		}
+	})
+	
+	
+	
+	
+/**************** 热门课程 */
+	$.ajax({
+		url:"http://localhost:8080/allhomepage",
+		success:function(lingjc){
+			// console.log(lingjc);
+			var hh1 = '<h3 class="types-title clearfix"> <span>'+lingjc[4].titlea+'</span>'	 
+						+'<ul class="js-rank-tab">'
+						+	'<li class="curr">实战课程</li>'
+						+	'<li class="mianfei">免费课程</li>'
+						+'</ul> <a href="//www.imooc.com/course/list?sort=tiny&amp;mc_marking=01951252d164cb9757dc034d89cc3544&amp;mc_channel=sywk"'
+						+ 'class="banner_wk r hide" target="_blank"></a></h3>';
+				
+			var div1 = '<div class="clearfix types-content js-rank-content">';
+			var lingjc1 = lingjc[4].courses;
+			var aa1 = '';
+			// 循环遍历a标签
+			for(var i = 0 ; i < lingjc1.length ; i++){					
+				aa1 += 	'<div class="index-card-container course-card-container container">'
+						+	'<a target="_blank" class="course-card" href="chargedetails.html?id='+lingjc1[i].id+'"'
+						+	 'data-track="xshk-1-1">'				 
+						+		'<div class="course-stat upgrade">'+lingjc1[i].labela+'</div>'
+						+		'<div class="course-card-top hashadow"><img class="course-banner" src="./static/img/index/remenkech/'+lingjc1[i].position+'">'
+						+			'<div class="course-label"><label>Python</label></div>'
+						+		'</div>'
+						+		'<div class="course-card-content">'
+						+			'<h3 class="course-card-name">'+lingjc1[i].coursename+'</h3>'
+						+			'<div class="clearfix course-card-bottom">'
+						+				'<div class="course-card-info">'
+						+					'<span>'+lingjc1[i].leve+'</span><span><i class="imv2-set-sns"></i>'+lingjc1[i].studycount+'</span>'
+						+					'<span class="r js-hover-evaluation">'+lingjc1[i].enumber+'人评价</span>'
+						+				'</div>'
+						+				'<div class="course-card-price">￥'+lingjc1[i].price+'.00</div>'
+						+			'</div>'
+						+		'</div>'
+						+	'</a>'
+							
+						+'</div>';			
+			}
+			console.log(aa1);				
+			var div2 = '</div>';
+			var div3 = hh1+div1+aa1+div2 ;
+			// console.log(div3);
+			$("#muokuai5").append(div3);
+		}
+	})
+	
+	
+	
+	
+/**************************慕课专栏 */	
+	$.ajax({
+		url:"http://localhost:8080/allhomepage",
+		success:function(lingjc){
+			// console.log(lingjc);
+			var hh1 = '<h3 class="types-title clearfix"><span>'+lingjc[5].titlea+'</span><a href="/read" class="more" target="_blank">查看更多 <i class="imv2-right2"></i></a></h3>';
+						
+			var div1 = '<div class="clearfix types-content">';
+			var lingjc1 = lingjc[5].courses;
+			var aa1 = '';
+			// 循环遍历a标签
+			for(var i = 0 ; i < lingjc1.length ; i++){					
+				aa1 +=  '<div class="course-read-container">'
+						+	'<div class="course-banner">' 
+						+		'<a href="chargedetails.html?id='+lingjc1[i].id+'" target="_blank"> <img src="static/img/index/mukezhuanlan/'+lingjc1[i].position+'" alt="">'
+						+			'<div class="try-read-img">试读</div>'
+						+		'</a>' 
+						+	'</div>'
+						+	'<h4><a href="" target="_blank">'+lingjc1[i].coursename+'</a></h4>'
+						+	'<div class="course-read-info"> <span>共45节 · '+lingjc1[i].studycount+'人已购买</span> </div>'
+						+	'<div class="course-read-teacher"> <a href="" target="_blank"><span>'+lingjc1[i].labela+'</span> / '+lingjc1[i].labelb+'</a></div>'
+						+	'<div class="course-read-price"> <a href="" target="_blank"><span class="sale">¥ '+lingjc1[i].price+'.00</span></a> </div>'
+						+'</div>';
+			}
+			console.log(aa1);				
+			var div2 = '</div>';
+			var div3 = hh1+div1+aa1+div2 ;
+			// console.log(div3);
+			$("#muokuai6").append(div3);
+		}
+	})
+	
+	
+	
+	/* 顶部搜索框 */
+	
+	$(".showhide-search").click(function(){
+		var sname = $(".search-input").val();
+		// alert(sname);
+		var courseName = "courseName="+sname;
+		window.location.href="http://127.0.0.1:8848/imooc/sousuo.html?"+courseName;
+	})
+	
+	
+	 // <input class="search-input"  data-suggest-trigger="suggest-trigger" placeholder="请输入关键字..." type="text"
+	 //  autocomplete="off">
+	 // <input type="hidden" class="btn_search" data-search-btn="search-btn">
+	 
+	
+	
+	
+	
+	
+	
+	
+	</script>
+	
+	
+	
+</html>

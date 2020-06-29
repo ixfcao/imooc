@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/loginregister.css">
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js" ></script>
+		
+		<title></title>
+		
+	</head>
+	<body>
+		<div id="head" class="sig-head">
+			<a href="/" target="_self" ><img class="sig-img" src="static/img/common/signlogo.png" alt=""></a>
+		</div>
+		<div id="main">
+
+			<div class="login-wrap">
+
+				<div id="signin" class="rl-modal">
+					<div class="rl-modal-header">
+						<h1> 
+							<span class="active-title">登录</span> 
+							<span data-fromto="signin:signup" class="xa-showSignup">
+								<a href="register.html">注册</a>
+								</span> 
+						</h1>
+					</div>
+					<div class="rl-modal-body js-loginWrap">
+						<div class="clearfix">
+							<form  id="signup-form" autocomplete="off">
+								<div class="rlf-group pr"> 
+								<!-- 用户名 -->
+									<input type="text" id="exampleInputEmail1" maxlength="37" name="uname" data-validate="require-mobile-phone"
+									 autocomplete="off" class="xa-emailOrPhone ipt ipt-email js-own-name" placeholder="请输入用户名">
+									
+									<p class="rlf-tip-wrap errorHint color-red" data-error-hint="请输入正确的邮箱或手机号"></p>
+								</div>
+								
+								<div class="rlf-group  pr"> 
+									<a href="" hidefocus="true" class="proclaim-btn js-proclaim imv2-visibility_off is-pwd" 
+									tabindex="-1"></a> 
+								<!-- 密码 -->
+									<input type="password" id="exampleInputPassword1" name="pwd" data-validate="require-password" class="ipt ipt-pwd js-loginPassword js-pass-pwd"
+									placeholder="请输入密码" maxlength="20" autocomplete="off">
+									
+									<p class="rlf-tip-wrap errorHint color-red "></p>
+								</div>
+								<div class="rlf-group clearfix form-control js-verify-row" style="display: none;"> 
+									<input type="text" name="verify" class="ipt ipt-verify l" data-validate="require-string" data-callback="checkverity" maxlength="4"
+									 data-minlength="4" placeholder="请输入验证码"> 
+									 
+									<a href="" hidefocus="true" class="verify-img-wrap js-verify-refresh"></a>
+									<a href="" hidefocus="true" class="icon-refresh js-verify-refresh"></a>
+									<p class="rlf-tip-wrap errorHint color-red" data-error-hint="请输入正确验证码"></p>
+								</div>
+								<div class="rlf-group rlf-appendix form-control  clearfix" style="display: inline;"> 
+									<label for="auto-signin" class="rlf-autoin l" hidefocus="true">
+										<input type="checkbox" checked="checked" class="auto-cbx" id="auto-signin">7天内自动登录
+									</label>
+									<a href="" class="rlf-forget r" target="_blank" hidefocus="true" style="width: 5px;">无法登录</a>
+									<div class="rlf-line r"></div> 
+									<a href="" class="rlf-forget r" target="_blank" hidefocus="true" style="width: 50px;">找回密码</a>
+								</div>
+								<p class="rlf-tip-globle color-red" id="signin-globle-error"></p>
+								<div class="rlf-group clearfix"> 
+									<input id="denglu01" type="button" value="登录" hidefocus="true" class="moco-btn moco-btn-red moco-btn-lg btn-full xa-login">
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="rl-model-footer">
+						<div class="pop-login-sns clearfix" style="width: 100%"> <span class="l rlf-other xa-showPhoneSignin">手机短信登录</span> 
+							<a href="" hidefocus="true" data-login-sns="" class="pop-sns-weibo l"><i class="iconfont iconweibo"></i></a>
+							 
+							<a href="" hidefocus="true" data-login-sns="" class="pop-sns-weixin l"><i class="iconfont iconweixin"></i></a>
+							 
+							<a href="" hidefocus="true" data-login-sns="" class="pop-sns-qq l"><i class="iconfont iconQQ"></i></a> 
+						</div>
+							 
+						<div class="privacy_tip" >登录即同意慕课网<a href="" target="_blank">《隐私政策》</a></div>						
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="vright"><img draggable="false" class="moco-emoji" alt="©" src="http://www.imooc.com/static/moco/v1.0/images/face/36x36/a9.png">
+			2020 imooc.com All Rights Reserved 京ICP备 13046642号
+		</div>
+		
+		<!-- 登录验证 -->
+		
+		<!-- <script type="text/javascript">
+		   $("#denglu01").click(function(){
+		    var name=$('#exampleInputEmail1').val();
+		    var pwd=$('#exampleInputPassword1').val();
+		    $.ajax({
+		     url:"http://localhost:8080/imooc/login",
+			 // url:"http://localhost:8080/ssmimooc_war_exploded/login",
+		     type:"post",
+		     //获取input的value---jquery
+		     data:"uname="+name+"&pwd="+pwd,
+		     // dataType:"json",
+		     success:function(info){
+		      alert(info);
+		     }
+		    });
+		       
+		   })
+		   //发送异步请求，接收JSON格式的数据
+		   //JS/Jquery
+		   //------点击submit按钮
+		    
+		   
+		  </script> -->
+		  
+		  <script type="text/jscript">
+		  	$("#denglu01").click(function(e){
+		  		// e.preventDefault();
+		  		$.ajax({
+		  			url:"http://localhost:8080/imooc/login",
+		  			type:"post",
+		  			// 获取uname 和 pwd 要和后端接口名称一样
+		  			data:$('form').serialize(),
+		  			// dataType:"json",
+		  			success:function(info){
+						
+						alert(info);
+						if(info != "登录失败"){
+							
+							window.location.href="index.html";
+							  /* */
+							localStorage.setItem("name",info);
+						}
+					
+		  			}
+		  		});
+				
+		  	})
+		  </script>
+		  
+		  
+		
+		
+	</body>
+</html>

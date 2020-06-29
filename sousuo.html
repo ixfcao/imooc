@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/sousuo.css"/>
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="nav"></div>
+		
+		<div id="main">
+			<div class="search-main">
+				<div class="search-header js-search-header">
+					<div class="search-form">
+						<input type="text" id="sousuo" class="search-form-ipt js-search-ipt l"  placeholder="请输入想搜索的内容">
+						<button id="button" class="search-form-btn js-search-btn r">搜索</button>
+						<div class="search-tips-area js-search-tips"></div>
+					</div>
+				</div>
+		
+				<div class="js-header-placeholder" style="height:88px;display:none;"></div>
+
+				<div class="search-body">
+			    	<div class="search-content">
+						<div class="search-classify">  
+							<div class="all_content">
+								<!-- 全站结果，课程内容 -->
+								<a href="/search/?words=jj" class="active">
+									全站结果
+									<span>（1）</span>
+								</a>
+								<!-- <a href="/search/content?words=jj">
+									课程内容
+									<span>（0）</span>
+								</a> -->
+								
+							</div>
+							
+							<!-- <div class="tab_con">
+								<!-- tab选项 -->
+									<!-- <a href="/search/?words=jj" class="tab-item active">
+										全部
+									</a> -->
+									<!-- <a href="/search/?type=course&amp;words=jj" class="tab-item ">
+										课程
+									</a>
+									<a href="/search/?type=column&amp;words=jj" class="tab-item ">
+										专栏
+									</a>
+									<a href="/search/wenda?words=jj" class="tab-item ">
+										猿问
+									</a>
+									<a href="/search/article?words=jj" class="tab-item ">
+										手记
+									</a>
+									<span>
+									找到相关内容 1 个
+									</span> -->
+							<!-- </div> --> 
+		
+						</div>
+
+						<div class="search-course-list">
+							<!-- <div class="search-item js-search-item clearfix">
+								<a href="//coding.imooc.com/class/418.html" target="_blank" class="js-zhuge-allResult js-result-item item-img l   js-zhuge-PPTSearch" data-type="实战课程">
+									<img src="//img3.sycdn.imooc.com/szimg/5e32d2530847528006000338-240-180.jpg"> 
+																		
+									<p class="type">实战课程</p>
+								</a>
+								<div class="item-detail l">
+									<a href="//coding.imooc.com/class/418.html" target="_blank" class="js-zhuge-allResult item-title js-result-item js-item-title  js-zhuge-PPTSearch" data-type="实战课程">
+												Python3入门人工智能 掌握机器学习+深度学习 提升实战能力
+									</a>
+									<p class="item-desc">Flare老师帮你全面梳理人工智能核心知识，使用流行的Python3语言手把手带你完成AI实战项目，课程囊括机器学习与深度学习，监督与无监督学习，独有综合多项技术的混合算法，为你学习AI打下扎实基础。课程采用sklearn与keras框架（底层调用tensorflow），针对模型优化、数据分析与预处理展开详细讲解，帮你实现能力的全面提升。课程大项目综合数据增强、降维、分离，图像识别，机器与深度学习，监督与无监督学习，让你使用AI工具得心应手。讲师赵辛为福布斯中国U30科技上榜者，孔雀人才，全奖海归博士</p>
+									<div class="item-classify">
+										<span>讲师：
+											<a target="_blank" href="/u/6659155">flare_zhao</a>
+										</span>
+														
+										<span>    初级     </span>
+										<i class="imv2-set-sns"></i>
+										<span>400</span>
+										<a href="javascript:;" class="js-free-pop" data-m="34020" data-c="418" title="课程导学">
+											<i class="imv2-video_circle" style="cursor: pointer;"></i>
+											<span style="cursor: pointer;">试看</span> 
+										</a>
+									</div>
+								</div>
+							</div> -->
+							
+							
+							
+							
+							
+							
+							
+							
+							
+						</div>	 
+					</div>
+					
+		            
+					<!-- 热搜关键词 -->
+					<div class="search-recommend r">
+						<div class="hot-search search-labels">
+							<div class="title">
+									热搜关键词
+							</div>
+							<div class="labels-con js-zhuge-searchHot">
+														<a href="/imooc/sousuo.html?courseName=Vue" class="label" data-link="/search/?words=Vue">
+									Vue
+								</a>
+														<a href="/imooc/sousuo.html?courseName=Python" class="label" data-link="/search/?words=Python">
+									Python
+								</a>
+														<a href="/imooc/sousuo.html?courseName=Java" class="label" data-link="/search/?words=Java">
+									Java
+								</a>
+														<a href="/imooc/sousuo.html?courseName=flutter" class="label" data-link="/search/?words=flutter">
+									flutter
+								</a>
+														<a href="/imooc/sousuo.html?courseName=springboot" class="label" data-link="/search/?words=springboot">
+									springboot
+								</a>
+														<a href="/imooc/sousuo.html?courseName=docker" class="label" data-link="/search/?words=docker">
+									docker
+								</a>
+														<a href="/imooc/sousuo.html?courseName=React" class="label" data-link="/search/?words=React">
+									React
+								</a>
+														<a href="/imooc/sousuo.html?courseName=小程序" class="label" data-link="/search/?words=小程序">
+									小程序
+								</a>
+							</div>	
+						</div>				
+					</div>
+					
+					
+				</div>
+			<!-- 播放器出来才会展示的按钮 -->
+			<!-- <a href="" target="_blank" class="godetails js-godetails">查看课程详情</a> -->
+		
+		
+		
+		
+		</div>
+		
+		</div>
+		<div id="footer">	</div>
+		
+		
+	
+		
+		
+		
+		
+	</body>
+	<script type="text/javascript">
+	
+		$("#nav").load("nav.html");
+		$("#footer").load("footer.html");
+	
+		$(function(){
+			var search = location.search;
+			var string = "";
+			 //获取URL中?后的句子
+			string = search.split("?")[1]; 
+			// alert(string);
+			$.ajax({
+				url:"http://localhost:8080//ScreenAllCourse",
+				data:string,
+				success:function(course){
+					
+					var div1 = "";
+					for(var i = 0 ; i < course.length ; i++){
+						div1 += '<div class="search-item js-search-item clearfix">'
+								+	'<a href="/imooc/chargedetails.html?id='+course[i].id+'" target="_blank" class="js-zhuge-allResult js-result-item item-img l   js-zhuge-PPTSearch" data-type="实战课程">'
+								+		'<img src="./static/img/course/'+course[i].courescover+'"> '
+																			
+								// +		'<p class="type">实战课程</p>'
+								+	'</a>'
+								+	'<div class="item-detail l">'
+								+		'<a href="//coding.imooc.com/class/418.html" target="_blank" class="js-zhuge-allResult item-title js-result-item js-item-title  js-zhuge-PPTSearch" data-type="实战课程">'+course[i].coursename+'</a>'
+								+		'<p class="item-desc">'+course[i].describe+'</p>'
+								+		'<div class="item-classify">'
+								+			'<span>讲师：'
+								+				'<a target="_blank" href="/u/6659155">讲师'+i+'</a>'
+								+			'</span>'
+															
+								+			'<span>'+course[i].leve+'</span>'
+								+			'<i class="imv2-set-sns"></i>'
+								+			'<span>'+course[i].enumber+'</span>'
+								+			'<a href="javascript:;" class="js-free-pop" data-m="34020" data-c="418" title="课程导学">'
+								+				'<i class="imv2-video_circle" style="cursor: pointer;"></i>'
+								+				'<span style="cursor: pointer;">试看</span> '
+								+			'</a>'
+								+		'</div>'
+								+	'</div>'
+								+'</div>'				
+						
+					}
+					console.log(div1);
+					$(".search-course-list").append(div1);
+					// 
+				}
+			})
+			
+			
+		});
+		
+		$("#button").click(function(){
+			var sname = $("#sousuo").val();
+			
+			// alert(sname);
+			// alert(11);
+			window.location.href="http://127.0.0.1:8848/imooc/sousuo.html?courseName="+sname;
+		})
+		
+		// $("#button").click(function(){
+		// 	alert(00);
+		// 	window.location.href = "/imooc/freecourse.1.html?"+courseName;						
+		// })
+		
+		
+	</script>
+</html>

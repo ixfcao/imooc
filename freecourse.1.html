@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/freecourse.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont01.css" />
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body id="List_courseId">
+		<div id="globalTopBanner"></div>
+		<div id="nav"></div>
+
+		<div id="main">
+			<div class="wrap ">
+				<div class="top">
+					<div class="course-top clearfix">
+						<a class="top-header" href="/course/list">
+							<img src="./static/img/common/logo-course.png" alt="课程" width="140" height="60">
+						</a>
+
+						<div id="courseIndexBanner" style="display: block;">
+							<div>
+								<img src="./static/img/5ed8bcb1094bb87b00000000.png">
+							</div>
+							<div>
+
+							</div>
+						</div>
+						<div class="course-top-search">
+							<div class="search-area" data-search="top-banner">
+								<input class="search-input" name="courseName" data-suggest-trigger="suggest-trigger" placeholder="搜索感兴趣的内容" type="text"
+								 autocomplete="off">
+								<input type="hidden" id="sousuo" class="btn_search" value="" data-search-btn="search-btn">
+								
+								
+								<ul class="search-area-result js-search-wrap" data-suggest-result="suggest-result">
+								</ul>
+							</div>
+							<div class="showhide-search" data-show="no"><i class="iconfont iconsousuokuang"></i></div>
+						</div>
+					</div>
+					<div class="course-content">
+						<div class="course-nav-box">
+							<div class="course-nav-row clearfix">
+								<span class="hd l">方向：</span>
+								<div class="bd">
+									<ul class="alldirections">
+										<!-- <li class="course-nav-item on">
+											<a href="/course/list">全部</a>
+										</li>
+
+										<li class="course-nav-item">
+											<a href="/course/list?c=fullstack" data-ct="fullstack">全栈工程师</a>
+										</li>
+										
+										<li class="course-nav-item">
+											<a id="a_list" href="javascript:;" onclick="getaval();" data-ct="fullstack">1</a>
+										</li>
+										 -->
+										
+										
+										
+									</ul>
+								</div>
+							</div>
+							<div class="course-nav-row course-nav-skills clearfix">
+								<div class="js-course-skills course-skills-box">
+									<span class="hd l">分类：</span>
+									<div class="bd">
+										<ul class="classify">
+											<!-- <li class="course-nav-item on">
+												<a href="/course/list?">全部</a>
+											</li>
+											<li class="course-nav-item">
+												<a href="" data-id="6303" data-ct="tyscript">Typescript</a>
+											</li>
+ -->
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="course-nav-row clearfix border_bottom_none">
+
+
+								<a href="javascript:;" class="course-recommend" onclick="_hmt.push(['_trackEvent', 'course', 'click', 'inlet'])"></a>
+
+								<span class="hd l">难度：</span>
+								<div class="bd">
+									<ul class="alllevel">
+
+										<!-- <li class="course-nav-item on">
+											<a href="/course/list?">全部</a>
+										</li>
+										<li class="course-nav-item ">
+											<a href="/course/list?is_easy=1">入门</a>
+										</li>
+										<li class="course-nav-item ">
+											<a href="/course/list?is_easy=2">初级</a>
+										</li>
+										<li class="course-nav-item ">
+											<a href="/course/list?is_easy=3">中级</a>
+										</li>
+										<li class="course-nav-item ">
+											<a href="/course/list?is_easy=4">高级</a>
+										</li> -->
+
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="course-tool-bar clearfix">
+					<div class="tool-left l">
+						<a href="" class="moco-change-smalle-btn">最新</a>
+						<a href="" class="moco-change-smalle-btn active">最热</a>
+						<a href="" class="moco-change-smalle-btn">微课</a>
+					</div>
+					<div class="l">
+						<span class="tool-item" style="display: none;">
+							<a class="follow-learn tool-chk" href=";">跟我学</a>
+						</span>
+					</div>
+					<div class="tool-right r">
+
+
+
+						<span class="tool-item total-num">
+							共<b>892</b>个课程
+						</span>
+						<span class="tool-item tool-pager">
+							<span class="pager-num">
+								<b class="pager-cur">1</b>/<em class="pager-total">30</em>
+							</span>
+							<a href="" class="pager-action pager-prev  disabled"><i class="icon-left2"></i></a>
+
+							<a href="" class="pager-action pager-next"><i class="icon-right2"></i></a>
+						</span>
+					</div>
+
+				</div>
+				<div class="course-list">
+					<div class="moco-course-list">
+						<div class="clearfix" id="courselist">
+							<!-- <div class="course-card-container">
+								<a target="_blank" href="/course/introduction/id/1221" class="course-card">
+
+									<div class="course-card-top">
+										<img class="course-banner lazy" data-original="" style="display: inline;" src="./static/img/course/5e53996209f289a412000676-240-135.png">
+										<div class="course-teacher">
+											<div class="teacher-img" style="background-image:url()">
+											</div>
+											<span class="teacher-name">神思者</span>
+										</div>
+									</div>
+									<div class="course-card-content">
+										<h3 class="course-card-name">用技术打造小程序简历，让面试官耳目一新</h3>
+										<div class="clearfix course-card-bottom">
+											<div class="course-card-info">
+												<span>入门</span><span><i class="imv2-set-sns"></i>2685</span>
+											</div>
+											<p class="course-card-desc">小程序简历，别出心裁，让面试官记忆犹新
+											</p>
+
+											<div class="course-card-price sales">
+												<div class="price-box">
+													<span class="price red">￥1.00</span>
+													<span class="cost-price">￥69.00</span>
+													<div class="collect clearfix js-course-collect" data-cmd="follow" data-cid="1221" title="收藏"><i class="imv2-star"></i><span>收藏</span></div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</a>
+							</div> -->
+
+
+
+
+						</div>
+					</div>
+					<div class="page"><span class="disabled_page">首页</span><span class="disabled_page">上一页</span><a href="" class="active text-page-tag">1</a><a
+						 class="text-page-tag" href="">2</a><a class="text-page-tag" href="">3</a><a class="text-page-tag" href="">4</a><a
+						 class="text-page-tag" href="">5</a><a class="text-page-tag" href="">6</a><a class="text-page-tag" href="">7</a><a
+						 href="">下一页</a><a href="">尾页</a></div>
+				</div>
+			</div>
+		</div>
+		<div id="footer" >
+			
+		</div>
+	</body>
+	
+	<script type="text/javascript">
+		
+		
+		
+		
+<!-- 页面方向的加载***************************************************************************** -->
+		$.ajax({
+			url:"http://localhost:8080/allDirections",
+			success:function(allDirections){
+				var li1 = '<li class="course-nav-item on"><a href="/imooc/freecourse.1.html?" >全部</a></li>';
+				var li2 ='';
+				for (var i = 0 ; i < allDirections.length ; i++) {
+					li2 += '<li class="course-nav-item"><a  data-ct="fullstack" href="/imooc/freecourse.1.html?describee='+allDirections[i].describee+'">'+allDirections[i].describee+'</a></li>';
+				}
+				// alert(allDirections[i].describee);
+				var li3 = li1 + li2 ;
+				$(".alldirections").append(li3);
+			}
+		});
+		
+		
+		
+		
+		/* 分类加载 */		
+		// $(function(){
+		// 	var cname = '';
+		// 	// 请求全部的ajax 查询所有的
+		// 	// getClassify("");
+		// 	// 点击第一次动态获取的a标签 获取点击的a标签的值
+		// 	$(".course-nav-box").on("click","li>a",function(){
+		// 	    alert("被点击了");
+		// 		alert($(this).text())
+		// 		tit = $(this).text();
+				
+		// 	})
+		// });
+		
+		
+		
+/* 获取点击方向之后的URL的参数 根据参数去加载 分类的数字***************************************************************************** */
+		$(function(){			
+			var search = location.search;			
+			var string = "";
+			// alert(search); //获取URL中?后的句子
+			string = search.split("?")[1]; 
+			getClassify(string);
+			
+			
+		});
+/*循环遍历 追加商品的分类列表 ***********************************************************************************************************************************************************/
+		function getClassify(cname){
+			$.ajax({
+				url:"http://localhost:8080/selectClassifyAllOrByDirectionid",
+				data:cname,
+				success:function(Classify){
+					var li1 = '<li class="course-nav-item on"><a href="/imooc/freecourse.1.html?classifyName=">全部</a></li>';
+					var li2 ='';
+					for (var i = 0 ; i < Classify.length ; i++) {
+						li2 += '<li class="course-nav-item"><a href="/imooc/freecourse.1.html?classifyName='+Classify[i].classifyname+'" data-id="6303" data-ct="tyscript">'+Classify[i].classifyname+'</a></li>';
+					}
+					var li3 = li1 + li2 ;
+					$(".classify").append(li3);
+				
+				}
+			});
+		}
+		
+		
+/* 难度加载********************************************************************************************************************************************************** */		
+		$(function(){
+			var search = location.search;
+			var string = "";
+			// alert(search); //获取URL中?后的句子
+			string = search.split("?")[1]; 
+			getLevel(string);
+		});
+		function getLevel(string){
+			$.ajax({
+				url:"http://localhost:8080//allLevel",
+				// data:$('form').serialize(),
+				success:function(Level){
+					var li1 = '<li class="course-nav-item on"><a href="/imooc/freecourse.1.html?levelName=">全部</a></li>';
+					var li2 ='';
+					for (var i = 0 ; i < Level.length ; i++) {
+						li2 += '<li class="course-nav-item "><a href="/imooc/freecourse.1.html?levelName='+Level[i].levelname+'">'+Level[i].levelname+'</a></li>';
+					}
+					var li3 = li1 + li2 ;
+					$(".alllevel").append(li3);
+				}
+			});
+		}
+		
+		
+		
+/* 根据搜索框中的内容 跳转到指定页面 *********************************************************************************************************************************************************/
+		$(".showhide-search").click(function(){				
+			var name=$('.search-input').val();
+			var courseName = "courseName="+name;
+			window.location.href = "/imooc/freecourse.1.html?"+courseName;						
+		})
+		
+		
+/* 获取当前页面的URL参数 加载课程表********************************************************************************************************************************************************* */
+		$(function(){
+			var search = location.search;
+			var string = "";
+			// alert(search); //获取URL中?后的句子
+			string = search.split("?")[1]; 
+			getCourse(string);
+			
+			
+		});
+		
+/* 循环遍历追加 课程的列表 **********************************************************************************************************************************************************/
+		function getCourse(string){
+			/*  */
+			$.ajax({
+				url:"http://localhost:8080//ScreenAllCourse",
+				data:string,
+				success:function(course){
+					var div1 = '';
+					for(var i = 0 ; i < course.length ; i++){
+						div1 +=  '<div class="course-card-container">'
+								+	'<a target="_blank" href="/imooc/chargedetails.html?id='+course[i].id+'" class="course-card">'
+							
+								+		'<div class="course-card-top">'
+								+			'<img class="course-banner lazy" data-original="" style="display: inline;" src="./static/img/course/'+course[i].courescover+'">'
+								+			'<div class="course-teacher">'
+								+				'<div class="teacher-img" style="background-image:url()"></div>'
+								//+				'<span class="teacher-name">神思者</span>'
+								+			'</div>'
+								+		'</div>'
+								
+								+		'<div class="course-card-content">'
+								+			'<h3 class="course-card-name">'+course[i].coursename+'</h3>'
+								+			'<div class="clearfix course-card-bottom">'
+								+				'<div class="course-card-info">'
+								+					'<span>'+course[i].leve+'</span><span><i class="imv2-set-sns"></i>'+course[i].enumber+'</span>'
+								+				'</div>'
+								+				'<p class="course-card-desc">'+course[i].describe+'</p>'
+								
+								+				'<div class="course-card-price sales">'
+								+					'<div class="price-box">'
+								+						'<span class="price red">'+course[i].price+'</span>'
+								+						'<span class="cost-price">￥'+course[i].price+i+'</span>'
+								+						'<div class="collect clearfix js-course-collect" data-cmd="follow" data-cid="1221" title="收藏"><i class="imv2-star"></i><span>收藏</span></div>'
+								+					'</div>'						
+								+				'</div>'
+								+			'</div>'
+								+		'</div>'
+								+	'</a>'
+								+'</div>'
+					}
+					$("#courselist").append(div1);
+						
+				}
+			})
+		}
+		
+	
+	</script>
+	
+	
+	
+	
+	<script>
+	   $("#nav").load("nav.html");
+	    $("#footer").load("footer.html");
+	</script>
+</html>

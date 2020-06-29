@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<a href="">前沿技术</a>
+	</body>
+	<script type="text/javascript">
+		
+		
+		$(function(){
+			getClassify("");
+			$("")
+			//
+		});
+		
+			function getClassify(tit){
+				$.ajax({
+				
+					url:"http://localhost:8080/selectClassifyAllOrByDirectionid",
+					data:"describee="+tit,
+					success:function(Classify){
+						var li1 = '<li class="course-nav-item on"><a href="/course/list?">全部</a></li>';
+						var li2 ='';
+						for (var i = 0 ; i < Classify.length ; i++) {
+							li2 += '<li class="course-nav-item"><a href="" data-id="6303" data-ct="tyscript">'+Classify[i].classifyname+'</a></li>';
+						}
+						var li3 = li1 + li2 ;
+						$(".classify").append(li3);
+					}
+				});
+			}
+		
+	</script>
+</html>
